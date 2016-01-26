@@ -1,0 +1,32 @@
+/*! Helper classes */
+.h{
+  &-fl{ float: left; }
+  &-fr{ float: right; }
+  &-caps{ text-transform: uppercase; }
+  &-fullwidth{ width: 100%; }
+  &-inline-block{ display: inline-block; }
+  &-invisible{ visibility: hidden; }
+  &-ghost{ display: none; }
+  &-txtcenter{ text-align: center; }
+  &-txtleft{ text-align: left; }
+  &-txtright{ text-align: right; }
+  &-pad10{ padding: 10px; }
+  &-pad20{ padding: 20px; }
+  &-mtop10{ margin-top: 10px; }
+  &-mtop20{ margin-top: 20px; }
+  &-mtop50{ margin-top: 50px; }
+  &-middle-block{
+    display: block;
+    margin: 0 auto;
+  }
+  &-clearfix{
+    &:after, &:before{
+      content: " ";
+      display: table;
+    }
+    &:after{
+      clear: both;
+    }
+  }
+}
+

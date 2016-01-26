@@ -1,0 +1,6 @@
+@import "../../node_modules/normalize-css/normalize.css";
+@import "partials/variables.css";
+@import "partials/helper.css";
+@import "partials/layout.css";
+@import "partials/home.css";
+@import "partials/footer.css";

@@ -1,0 +1,73 @@
+#home1 {
+    background-repeat: no-repeat;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    background-color: transparent;
+    background: url("../images/home/homebanner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+}
+
+#home2 {
+    height: 600px;
+    padding-top: 100px;
+}
+
+#home3 {
+    height: 600px;
+    background: url("../images/home/staffing1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+#home4 {
+  height: 600px;
+
+  & img {
+    position: relative;
+    top: 80px;
+    right: -348px;
+    width: 66%;
+    height: auto;
+    min-width: 675px;
+    max-width: 1249px;
+    left: inherit;
+  }
+
+}
+
+#home5 {
+    height: 700px;
+}
+
+#home6 {
+    height: 700px;
+}
+
+#home7 {
+    height: 700px;
+}
+
+.orange-lead {
+  font-size: 25px;
+  color: #f36531;
+  line-height: 40px;
+}
+
+.motivate-header {
+  position: absolute;
+  top: 26%;
+  left: 0;
+  right: 0;
+  color: var(--white);
+  font-size: 6.8rem;
+  letter-spacing: 0;
+  line-height: 9rem;
+  padding-left: 100px;
+  padding-right: 100px;
+  font-weight: 300;
+}
