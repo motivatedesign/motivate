@@ -1,0 +1,26 @@
+#work {
+  
+  nav a {
+    color: var( --text-color);
+  }
+
+  #work1 {
+      background-repeat: no-repeat;
+      position: relative;
+      width: 100%;
+      height: 100vh;
+      background-color: $grey4;
+      background-repeat: no-repeat;
+      background-size: cover;
+      min-height: 500px;
+      
+      h1 img {
+          max-width: 896px;
+      }
+  }
+
+  .motivate-header {
+      background: url("../images/work/YOUX.jpg");
+  }
+
+}

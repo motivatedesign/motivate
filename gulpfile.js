@@ -44,10 +44,12 @@ var fontMagician = require('postcss-font-magician');
 var gutil = require('gulp-util');
 var source = require('vinyl-source-stream');
 var browserify = require('browserify');
+var nunjucksRender = require('gulp-nunjucks-render');
+var data = require('gulp-data');
 
 
 
-
+  
 
 gulp.task('css', function(){
   var processors = [
@@ -113,7 +115,9 @@ gulp.task('images', function(){
 
 // HTML
 gulp.task('html', function(){
-  return gulp.src('src/*.html')
+  nunjucksRender.nunjucks.configure(['src/html/'], {watch: false});
+  return gulp.src(['./src/html/*.html', './src/html/partials/!(_)*.html'])
+    .pipe(nunjucksRender())
     .pipe(htmlmin({collapseWhitespace: true}))
     .pipe(gulp.dest('./'))
 });
@@ -124,7 +128,7 @@ gulp.task('watch', function(){
   
   gulp.watch('./src/**/*.js', ['scripts', browserSync.reload]);
 
-  gulp.watch(['*.html','./src/*.html'], ['html', browserSync.reload]);
+  gulp.watch(['*.html','./src/html/*.html', './src/html/partials/*.html'], ['html', browserSync.reload]);
 });
 
 
