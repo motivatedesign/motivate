@@ -29,6 +29,7 @@ var gulp = require('gulp'),
 var postcss = require('gulp-postcss');
 var cssImport = require('postcss-import');
 var url = require("postcss-url");
+// Note, that you must set postcss-mixins plugin before postcss-simple-vars and postcss-nested.
 var mixins = require('postcss-mixins');
 var simpleVars = require('postcss-simple-vars');
 var nested = require('postcss-nested');

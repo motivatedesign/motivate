@@ -15,10 +15,14 @@
   &-mtop10{ margin-top: 10px; }
   &-mtop20{ margin-top: 20px; }
   &-mtop50{ margin-top: 50px; }
+  &-research-color{color:$research;}
+  &-design-color{color:$design;}
+  &-staffing-color{color:$staffing;}
+  &-reframe-color{color:$reframe;}
   &-middle-block{
     display: block;
     margin: 0 auto;
-  }
+  }s
   &-clearfix{
     &:after, &:before{
       content: " ";
