@@ -4,18 +4,150 @@
   <meta name="description" content="{{meta.content}}">
 
 </head>
-  <body>
+  <body id="about">
     <!--[if lt IE 8]>
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
     <div class="container">
-      <section id="home1"> 
+      <section id="work1"> 
+        
+        {% include "partials/_nav3.html" %}
 
-        {% include "partials/_nav.html" %}
-        <h1 class="page-center motivate-header hidden-load animated slideInUp">Motivate Design is a <b>User Experience</b> staffing, research and design shop</h1>
+        <figure>
+          <a href="#" class="rec-image">
+            <div class="overlay-wrapper h-staffing-bgcolor">
+              <div class="overlay">
+                <i class="fa fa-search"></i>
+              </div>
+              <p>lorem ipss</p>
+            </div>
+          </a>
+        </figure>
+        <figure>
+          <a href="#" class="rec-image">
+            <div class="overlay-wrapper h-research-bgcolor">
+              <div class="overlay">
+                <i class="fa fa-search"></i>
+              </div>
+              <p>lorem ipss</p>
+            </div>
+          </a>
+        </figure>
+        <figure>
+          <a href="#" class="rec-image">
+            <div class="overlay-wrapper h-design-bgcolor">
+              <div class="overlay">
+                <i class="fa fa-search"></i>
+              </div>
+              <p>lorem ipss</p>
+            </div>
+          </a>
+        </figure>
+        <figure>
+          <a href="#" class="rec-image">
+            <div class="overlay-wrapper h-reframe-bgcolor">
+              <div class="overlay">
+                <i class="fa fa-search"></i>
+              </div>
+              <p>lorem ipss</p>
+            </div>
+          </a>
+        </figure>
+
       </section>
 
-        <!-- body goes here -->
+      <section id="work2">
+        <div class="page-center">
+          <div id="work-staffing">
+            <h2 class="section-header h-staffing-color">We help you <span>Staff</span></h2>
+            <p class="sentinel-lead">Our recruiters work with our UX people to build your experience-driven culture with full-time staffing, or get projects done with as-needed UX support.</p>
+            <ul class="offerings">
+              <li>UX Researchers</li>
+              <li>UX/UI Designers</li>
+              <li>UX Directors</li>
+              <li>Strategists</li>
+              <li>Interaction Designers</li>
+            </ul>
+          </div>
+        </div>
 
-        {% include "partials/_foot.html" %}
+        <div class="about-img1"></div>
+          <a href="">Build Your Team</a>
+          <a href="">Get Hired</a>
+        </div>
+      </section>
+
+
+      <section id="work3">
+        <div class="page-center">
+          <div id="work-research">
+            <h2 class="section-header h-research-color">We help you <span>Research</span></h2>
+            <p class="sentinel-lead">Understand your customers needs and wants, discover new insights, and validate important decisions to create engaging experiences.</p>
+            <ul class="offerings">
+            <li>USABILITY TESTING</li>
+            <li>FRIENDSHIP GROUPS</li>
+            <li>ETHNOGRAPHY</li>
+            <li>MOBILE DIARY STUDIES</li>
+            <li>IN-DEPTH INTERVIEWS</li>
+            </ul>
+          </div>
+        </div>
+        
+        <div class="about-img2">
+          <a href="">
+            <p class="tiny-button-text">White Paper</p>
+            <p class="about-button-text">Journey Map Mindset</p>
+          </a>
+        </div>
+
+      </section>
+
+
+      <section id="work4">
+        <div class="page-center">
+          <div id="work-design">
+            <h2 class="section-header h-design-color">We help you <span>Design</span></h2>
+            <p class="sentinel-lead">Design what you need: the way things work, the way things look or a new way to communicate what customers want.</p>
+            <ul class="offerings">
+            <li>Personas</li>
+            <li>Journey Maps</li>
+            <li>Wireframes</li>
+            <li>Visual Design</li>
+            <li>Branding</li>
+            <li>Information Architecture</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="about-img1"></div>
+          <a href="">Build Your Team</a>
+          <a href="">Get Hired</a>
+        </div>
+
+      </section>
+
+
+      <section id="work2">
+        <div class="page-center">
+          <div id="work-reframe">
+            <h2 class="section-header h-reframe-color">We help you <span>Reframe</span></h2>
+            <p class="sentinel-lead">Shift the way you work, innovate, and think through our proven set of techniques that help you come up with and execute on your next big idea. Now available in hardcover and e-book formats.</p>
+            <ul class="offerings">
+            <li>IDEATION WORKSHOPS</li>
+            <li>TRAINING WORKSHOPS</li>
+            <li>COLLABORATIVE DESIGN SESSIONS</li>
+            <li>UX-FOCUSED EVENTS</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="about-img1"></div>
+          <a href="">Build Your Team</a>
+          <a href="">Get Hired</a>
+        </div>
+
+      </section>
+
+
+      {% include "partials/_foot.html" %}

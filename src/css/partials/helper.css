@@ -19,6 +19,10 @@
   &-design-color{color:$design;}
   &-staffing-color{color:$staffing;}
   &-reframe-color{color:$reframe;}
+    &-research-bgcolor{background-color:$research;}
+  &-design-bgcolor{background-color:$design;}
+  &-staffing-bgcolor{background-color:$staffing;}
+  &-reframe-bgcolor{background-color:$reframe;}
   &-middle-block{
     display: block;
     margin: 0 auto;

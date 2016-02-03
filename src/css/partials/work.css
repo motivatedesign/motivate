@@ -1,7 +1,17 @@
 #work {
+
+  section {
+    min-height: 400px !important;
+  }
   
   nav a {
     color: var( --text-color);
+  }
+
+  .page-center {
+    height: 60vh;
+    position: relative;
+    overflow: hidden;
   }
 
   #work1 {
@@ -21,6 +31,10 @@
 
   .motivate-header {
       background: url("../images/work/YOUX.jpg");
+  }
+
+  #work2 {
+
   }
 
 }

@@ -1,0 +1,77 @@
+#about {
+
+	figure {
+		display: block;
+		
+		& p {
+		  font-family: "Gotham-Book";
+		  font-size: 3.6rem;
+		  color: #fff;
+		  letter-spacing: 6px;
+		  line-height: 38px;
+		  font-weight: 700;
+		  text-transform: uppercase;
+		  text-align: center;
+		  position: absolute;
+		  left: 0;
+		  right: 0;
+		  top: 44%;
+		  margin: 0 auto;
+		}
+	}
+
+	.overlay-wrapper {
+    position: relative;
+    overflow: hidden;
+    float: left;
+    transition: all 300ms ease-in-out;
+    width: 50vw;
+    height: 50vh;
+	}
+
+	.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,255,255,0.5);
+    transition: all 300ms ease-in-out;
+    filter: alpha(opacity=0);
+    opacity: 0;
+	}
+
+	.offerings li {
+    font-size: 1rem;
+    color: #787574;
+    letter-spacing: 1.5px;
+    line-height: 13px;
+    list-style-type: circle;
+    display: inline;
+    text-transform: uppercase;
+    padding-right: 10px;
+    white-space: nowrap;
+	}
+
+	.offerings li::before {
+    content: "•";
+    font-size: 23px;
+    vertical-align: middle;
+	}
+
+	#work-staffing .offerings li:before {
+    color: $staffing;
+	}
+
+		#work-research .offerings li:before {
+    color: $research;
+	}
+
+		#work-design .offerings li:before {
+    color: $design;
+	}
+
+		#work-reframe .offerings li:before {
+    color: $reframe;
+	}
+
+
+}

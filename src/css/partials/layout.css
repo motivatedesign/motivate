@@ -106,6 +106,15 @@ nav a {
   padding:0;
 }
 
+#nav3 {
+  position: relative;
+  background-color: $white;
+   
+  & a {
+    color: var(--text-color);
+  }
+}
+
 /*end nav*/
 
 
@@ -159,9 +168,9 @@ nav a {
 .section-header {
   font-family: Gotham-Bold;
   font-size: 3.9rem;
-  color: $staffing;
   letter-spacing: 1px;
   line-height: 50px;
+  padding-top: 16vh;
 }
 
 
