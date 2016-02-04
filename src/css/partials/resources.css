@@ -1,0 +1,84 @@
+#resources {
+
+	#recources2 {
+    height: 400px;
+    overflow: hidden;
+
+    & img {
+	    position: absolute;
+	    top: 80px;
+	    right: 0;
+	    width: 472px;
+	    height: auto;
+    }
+	}
+	
+	nav a {
+    color: var( --text-color);
+  }
+
+  #resources1 {
+      background-repeat: no-repeat;
+      position: relative;
+      width: 100%;
+      height: 100vh;
+      background-color: transparent;
+      background: url("../images/resources/resourcesleadimage.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      min-height: 700px;
+
+      
+      & h1 img {
+          max-width: 896px;
+      }
+  }
+
+  .motivate-header {
+  	position: relative;
+    top: 200px;
+    left: 40vw;
+    right: 0;
+    margin-top: -9px;
+    background-position-y: 41%;
+
+    & h1 {
+	    font-size: 3.5rem;
+	    letter-spacing: 5.4px;
+	    line-height: 64px;
+	    font-weight: 300;
+	    position: absolute;
+	    top: 76px;
+	    left: 40px;
+	    width: 399px;
+	    text-transform: uppercase;
+    }
+
+    & a {
+	    font-size: 1.2rem;
+	    color: #42423f;
+	    list-style-type: none;
+	    position: absolute;
+	    top: 376px;
+	    left: 40px;
+    }
+	
+  }
+
+  .more-link {
+    font-size: 28px;
+    color: #42423f;
+    line-height: 37px;
+    text-decoration: underline;
+    font-style: normal;
+    font-size: 12px;
+    color: #6cc8b9;
+    letter-spacing: .81px;
+    line-height: 12px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+  }
+
+
+}

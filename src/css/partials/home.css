@@ -36,9 +36,11 @@
   #home4 {
     height: 600px;
     position: relative;
+    overflow: hidden;
+    background-color: $section-light;
 
     & img {
-      position: relative;
+      position: absolute;
       top: 80px;
       right: -348px;
       width: 66%;
@@ -51,15 +53,37 @@
   }
 
   #home5 {
-      height: 700px;
+    height: 600px;
+    overflow: hidden;
+    background-color: $section-light;
+
+    & img {
+      position: relative;
+      top: 5pc;
+      right: -140px;
+      width: 100%;
+      height: auto;
+      min-width: 600px;
+      max-width: 1249px;
+      left: inherit;
+    }
+
   }
 
   #home6 {
-      height: 700px;
-  }
+    height: 600px;
+    overflow: hidden;
 
-  #home7 {
-      height: 700px;
+    & img {
+      position: relative;
+      top: 75pt;
+      float: right;
+      width: 30%;
+      height: auto;
+      min-width: 340px;
+      max-width: 1249px;
+      right: 10pc;
+    }
   }
 
   .orange-lead {

@@ -1,8 +1,4 @@
 #work {
-
-  section {
-    min-height: 400px !important;
-  }
   
   nav a {
     color: var( --text-color);
@@ -11,7 +7,7 @@
   .page-center {
     height: 60vh;
     position: relative;
-    overflow: hidden;
+    top: 26%;
   }
 
   #work1 {
@@ -22,7 +18,8 @@
       background-color: $grey4;
       background-repeat: no-repeat;
       background-size: cover;
-      min-height: 500px;
+      min-height: 600px;
+
       
       h1 img {
           max-width: 896px;
@@ -35,6 +32,86 @@
 
   #work2 {
 
+  }
+
+  figure {
+    padding: 0;
+    margin: 0;
+    width: 16.66666%;
+    float: left;
+    
+    & p {
+      font-family: "Gotham-Book";
+      font-size: 3.6rem;
+      color: #fff;
+      letter-spacing: 6px;
+      line-height: 38px;
+      font-weight: 700;
+      text-transform: uppercase;
+      text-align: center;
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 44%;
+      margin: 0 auto;
+    }
+  }
+
+  #client-logos {
+    position: relative;
+
+    & img {
+      width: 100%;
+      height: auto;
+      transition: all 100ms ease-in-out;
+      filter: grayscale(1);
+    }
+
+    .overlay-wrapper {
+      position: relative;
+      overflow: hidden;
+      float: left;
+      line-height: 0;
+    }
+
+    .overlay {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(255,255,255,0.5);
+      transition: all 300ms ease-in-out;
+      filter: alpha(opacity=0);
+      opacity: 0;
+    }
+
+    .overlay-wrapper:hover .overlay, .overlay-wrapper:focus img {
+      transform: scale(1.1);
+    }
+    
+    .overlay-wrapper:hover .overlay, .overlay-wrapper:focus .overlay {
+      filter: alpha(opacity=1);
+      opacity: 1;
+      z-index: 9; 
+    }
+
+  }
+
+  .more-link {
+    border-radius: 1px;
+    background-color: #f36531;
+    font-size: 11px;
+    line-height: 1.2em;
+    letter-spacing: 2px;
+    font-weight: 500;
+    color: #fff;
+    opacity: .9;
+    text-transform: uppercase;
+    padding: 21px;
+    white-space: nowrap;
+    display: inline-block;
+    width: 219px;
+    text-align: center;
+    font-style: normal;
   }
 
 }

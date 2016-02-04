@@ -1,11 +1,11 @@
-html{
+html {
   font-smoothing: antialiased;
   text-rendering: optimizelegibility;
   font-size: var(--rootFont);
   height: 100%;
 }
 
-body{
+body {
   font-family: var(--fontOne), sans-serif;
   font-size: var(--fontSize);
   background: var(--white);
@@ -15,7 +15,7 @@ body{
 }
 
 .container {
-  overflow:auto;
+  overflow: auto;
   padding-bottom: 160px;
 }
 
@@ -38,6 +38,7 @@ figure {display: flex;}
 section {
 	width: 100%;
   lost-utility: clearfix;
+  border-bottom: 1px solid #d6d7d9;
 }
 
 .page-center {
@@ -129,7 +130,6 @@ nav a {
 
 
 .bucket {
-  margin-left: 30px;
   margin-right: auto;
   top: 20%;
   position: relative;
@@ -137,6 +137,7 @@ nav a {
 
 .bucket-inner {
   lost-center: 476px;
+  padding-left: 105px;
 }
 
 .basic-link {
@@ -147,30 +148,11 @@ nav a {
   text-decoration: underline;
 }
 
-.more-link {
-  border-radius: 1px;
-  background-color: #f36531;
-  font-size: 11px;
-  line-height: 1.2em;
-  letter-spacing: 2px;
-  font-weight: 500;
-  color: #fff;
-  opacity: .9;
-  text-transform: uppercase;
-  padding: 21px;
-  white-space: nowrap;
-  display: inline-block;
-  width: 219px;
-  text-align: center;
-  font-style: normal;
-}
-
 .section-header {
   font-family: Gotham-Bold;
   font-size: 3.9rem;
   letter-spacing: 1px;
   line-height: 50px;
-  padding-top: 16vh;
 }
 
 
