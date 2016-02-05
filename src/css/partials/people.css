@@ -1,0 +1,50 @@
+#people {
+
+	& h1 {
+    font-weight: 500;
+    position: absolute;
+    top: 111px;
+    left: 0;
+    right: 0;
+    text-transform: none;
+    font-family: Gotham-Bold;
+    font-size: 4.0rem;
+    color: #fff;
+    letter-spacing: 1px;
+    line-height: 50px;
+	}
+
+  #people1 {
+    height: 439px;
+    background-color: #f36531;
+    text-align: center;
+    background-color: $orange;
+    position: relative;
+  }
+
+  #people-small-header {
+    font-family: "Gotham-Medium";
+    position: absolute;
+    top: 270px;
+    left: 0;
+    right: 0;
+    color: #99330e;
+    list-style-type: none;
+    padding: 0;
+
+    & li {
+	    font-size: 1rem;
+	    color: $darkorange;
+	    letter-spacing: .68px;
+	    line-height: 8px;
+	    padding: 26px;
+	    font-weight: 700;
+	    display: inline;
+    }
+
+  }
+
+
+
+
+}
