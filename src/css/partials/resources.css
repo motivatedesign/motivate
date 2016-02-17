@@ -31,10 +31,12 @@
   #resources4 {
     height: 600px;
 
-
-    #resources-book {
+    #resources-book-wrapper {
       position: relative;
       bottom: 300px;
+    }
+
+    #resources-book {
       width: 500px;
       height: auto;
     }
