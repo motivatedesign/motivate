@@ -77,7 +77,7 @@ gulp.task('css', function(){
 gulp.task('browser-sync', function(){
   browserSync({
     server: {
-      baseDir: "./"
+      baseDir: "./dist"
     }
   });
 });
@@ -120,7 +120,7 @@ gulp.task('html', function(){
   return gulp.src(['./src/html/*.html', './src/html/partials/!(_)*.html'])
     .pipe(nunjucksRender())
     .pipe(htmlmin({collapseWhitespace: true}))
-    .pipe(gulp.dest('./dist/html'))
+    .pipe(gulp.dest('./dist/'))
 });
 
 // Watch tasks
@@ -129,7 +129,7 @@ gulp.task('watch', function(){
   
   gulp.watch('./src/**/*.js', ['scripts', browserSync.reload]);
 
-  gulp.watch(['*.html','./src/html/*.html', './src/html/partials/*.html', './dist/html/*.html'], ['html', browserSync.reload]);
+  gulp.watch(['*.html','./src/html/*.html', './src/html/partials/*.html', './dist/*.html'], ['html', browserSync.reload]);
 });
 
 

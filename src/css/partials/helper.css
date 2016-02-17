@@ -15,7 +15,6 @@
   &-mtop10{ margin-top: 10px; }
   &-mtop20{ margin-top: 20px; }
   &-mtop50{ margin-top: 50px; }
-  &-mtop100{ margin-top: 100px; }
   &-research-color{color:$research;}
   &-design-color{color:$design;}
   &-staffing-color{color:$staffing;}
@@ -24,8 +23,6 @@
   &-design-bgcolor{background-color:$design;}
   &-staffing-bgcolor{background-color:$staffing;}
   &-reframe-bgcolor{background-color:$reframe;}
-  &-light-bgcolor{ background-color:$section-light;}
-  &-dark-bgcolor{ background-color:$section-dark;}
   &-middle-block{
     display: block;
     margin: 0 auto;

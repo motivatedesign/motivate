@@ -4,21 +4,12 @@
     height: 400px;
     overflow: hidden;
 
-    img {
-	    position: relative;
+    & img {
+	    position: absolute;
 	    top: 80px;
 	    right: 0;
 	    width: 472px;
 	    height: auto;
-    }
-
-    .bucket {
-      top: 60px;
-    }
-
-    .bucket-inner {
-      padding-left: 0px;
-      padding-right: 105px;
     }
 	}
 
@@ -42,18 +33,9 @@
     }
 
   }
-
-
 	
 	nav a {
     color: var( --text-color);
-  }
-
-  h3 {
-    color: $greydark;
-    font-family: Gotham-Bold;
-    font-size: 2.5rem;
-    line-height: 32px;
   }
 
   #resources1 {
@@ -105,9 +87,8 @@
   }
 
   .more-link {
-    font-family: Gotham-Medium;
-    font-size: 2.8rem;
-    color: $text-color;
+    font-size: 28px;
+    color: #42423f;
     line-height: 37px;
     text-decoration: underline;
     font-style: normal;
