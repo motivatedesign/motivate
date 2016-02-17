@@ -14,6 +14,13 @@ body {
   /* lost-utility: edit; */
 }
 
+p {
+  font-family: Sentinel-Light;
+  font-size: 1.6rem;
+  color: #42423F;
+  line-height: 23px;
+}
+
 .container {
   overflow: auto;
   padding-bottom: 160px;
@@ -153,6 +160,25 @@ nav a {
   font-size: 3.9rem;
   letter-spacing: 1px;
   line-height: 50px;
+}
+
+.tiny-text {
+  font-family: Gotham-Light;
+  font-size: 10px;
+  color: #4A4A4A;
+  letter-spacing: 0.68px;
+  line-height: 12px;
+}
+
+.eeo {
+  font-family: 'Gotham A','Gotham B',"Helvetica",Helvetica,Arial,sans-serif;
+  font-weight: 400;
+  font-size: 8px;
+  color: #707070;
+  line-height: 15px;
+  letter-spacing: 1px;
+  padding-bottom: 8px;
+  max-width: none;
 }
 
 

@@ -1,11 +1,11 @@
-@import "../../node_modules/normalize-css/normalize.css";
+@import "partials/hover.css";
 @import "partials/variables.css";
 @import "partials/helper.css";
-@import "partials/layout.css";
 @import "partials/home.css";
 @import "partials/work.css";
 @import "partials/about.css";
 @import "partials/resources.css";
 @import "partials/people.css";
 @import "partials/footer.css";
-@import "partials/hover.css";
+@import "partials/layout.css";
+@import "../../node_modules/normalize-css/normalize.css";
