@@ -1,17 +1,26 @@
 #resources {
 
-	#recources2 {
+  #recources2 {
     height: 400px;
     overflow: hidden;
 
-    & img {
-	    position: relative;
-	    top: 80px;
-	    right: 0;
-	    width: 472px;
-	    height: auto;
+    img {
+      position: relative;
+      top: 80px;
+      right: 0;
+      width: 472px;
+      height: auto;
     }
-	}
+
+    .bucket {
+      top: 60px;
+    }
+
+    .bucket-inner {
+      padding-left: 0px;
+      padding-right: 105px;
+    }
+  }
 
   #resources3 {
     height: 400px;
@@ -22,20 +31,27 @@
   #resources4 {
     height: 600px;
 
-    #resources-book-wrapper {
-      position: relative;
-      bottom: 300px;
-    }
 
     #resources-book {
+      position: relative;
+      bottom: 300px;
       width: 500px;
       height: auto;
     }
 
   }
-	
-	nav a {
+
+
+  
+  nav a {
     color: var( --text-color);
+  }
+
+  h3 {
+    color: $greydark;
+    font-family: Gotham-Bold;
+    font-size: 2.5rem;
+    line-height: 32px;
   }
 
   #resources1 {
@@ -56,7 +72,7 @@
   }
 
   .motivate-header {
-  	position: relative;
+    position: relative;
     top: 200px;
     left: 40vw;
     right: 0;
@@ -64,31 +80,32 @@
     background-position-y: 41%;
 
     & h1 {
-	    font-size: 3.5rem;
-	    letter-spacing: 5.4px;
-	    line-height: 64px;
-	    font-weight: 300;
-	    position: absolute;
-	    top: 76px;
-	    left: 40px;
-	    width: 399px;
-	    text-transform: uppercase;
+      font-size: 3.5rem;
+      letter-spacing: 5.4px;
+      line-height: 64px;
+      font-weight: 300;
+      position: absolute;
+      top: 76px;
+      left: 40px;
+      width: 399px;
+      text-transform: uppercase;
     }
 
     & a {
-	    font-size: 1.2rem;
-	    color: #42423f;
-	    list-style-type: none;
-	    position: absolute;
-	    top: 376px;
-	    left: 40px;
+      font-size: 1.2rem;
+      color: #42423f;
+      list-style-type: none;
+      position: absolute;
+      top: 376px;
+      left: 40px;
     }
-	
+  
   }
 
   .more-link {
-    font-size: 28px;
-    color: #42423f;
+    font-family: Gotham-Medium;
+    font-size: 2.8rem;
+    color: $text-color;
     line-height: 37px;
     text-decoration: underline;
     font-style: normal;
