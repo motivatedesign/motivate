@@ -134,3 +134,5 @@ gulp.task('watch', function(){
 
 
 gulp.task('default', ['css', 'browser-sync', 'images', 'html', 'browserify', 'scripts', 'watch']);
+
+gulp.task('build', ['css', 'images', 'html', 'scripts']);
