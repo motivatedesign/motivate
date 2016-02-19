@@ -25,7 +25,6 @@
   #resources3 {
     height: 400px;
     margin-top: 100px;
-    margin-bottom: 40px;
   }
 
   #resources4 {
@@ -33,10 +32,14 @@
 
 
     #resources-book {
+      width: 460px;
+      height: auto;
+      padding-top: 80px;
+    }
+
+    #resources-book-wrapper {
       position: relative;
       bottom: 300px;
-      width: 500px;
-      height: auto;
     }
 
   }
@@ -114,8 +117,30 @@
     letter-spacing: .81px;
     line-height: 12px;
     text-transform: uppercase;
-    text-decoration: none;
+    text-decoration: none;  
     font-weight: 700;
+  }
+
+  #buy-now {
+    background-color: $reframe;
+    border: 0 none;
+    font-family: Gotham-Medium;
+    font-size: 9px;
+    line-height: 2px;
+    font-style: normal;
+    letter-spacing: 2.16px;
+    text-align: center;
+    text-shadow: none;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    padding: 20px;
+    opacity: .8;
+  }
+
+  #buy-now:hover {
+    opacity:  1;
   }
 
 

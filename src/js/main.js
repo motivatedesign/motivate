@@ -1,4 +1,6 @@
-
+$(document).ready(function(){
+	alert("Your book is overdue.");
+});
 
 // anchor movement from href="#name" to id="name"
 $(function() {

@@ -86,7 +86,7 @@
 }
 
 .hvr-shutter-out-horizontal-two:hover {
-  color: #FF6539;
+  color: #FF6539 !important;
 }
 
 .hvr-shutter-out-horizontal-two:hover:before {
