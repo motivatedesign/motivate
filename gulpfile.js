@@ -84,7 +84,7 @@ gulp.task('browser-sync', function(){
 
 // Concatenate & Minify
 gulp.task('scripts', function(){
-  return gulp.src('./src/js/*.js')
+  return gulp.src(['./src/js/jquery.js', './src/js/jquery.flexslider.js', './src/js/waypoints.js', './src/js/main.js'])
     .pipe(sourcemaps.init())
     .pipe(concat('app.js'))
     .pipe(gulp.dest('dist/js'))
@@ -117,7 +117,7 @@ gulp.task('images', function(){
 // HTML
 gulp.task('html', function(){
   nunjucksRender.nunjucks.configure(['src/html/'], {watch: false});
-  return gulp.src(['./src/html/*.html', './src/html/partials/!(_)*.html'])
+  return gulp.src(['./src/html/*.html', './src/html/partials/!(_)*.html', './src/html/people/*.html'])
     .pipe(nunjucksRender())
     .pipe(htmlmin({collapseWhitespace: true}))
     .pipe(gulp.dest('./dist/'))
@@ -129,7 +129,7 @@ gulp.task('watch', function(){
   
   gulp.watch('./src/**/*.js', ['scripts', browserSync.reload]);
 
-  gulp.watch(['*.html','./src/html/*.html', './src/html/partials/*.html', './dist/*.html'], ['html', browserSync.reload]);
+  gulp.watch(['*.html','./src/html/*.html', './src/html/partials/*.html', './src/html/people/*.html', './dist/*.html'], ['html', browserSync.reload]);
 });
 
 

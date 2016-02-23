@@ -4,9 +4,13 @@
 @import "partials/layout.css";
 @import "partials/home.css";
 @import "partials/work.css";
+@import "partials/mona.css";
 @import "partials/about.css";
 @import "partials/resources.css";
 @import "partials/people.css";
 @import "partials/contact.css";
 @import "partials/footer.css";
 @import "partials/hover.css";
+@import "partials/flexslider.css";
+@import "partials/animate.css";
+@import "partials/media.css";

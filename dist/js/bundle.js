@@ -9832,5 +9832,5 @@ return jQuery;
 }));
 
 },{}],2:[function(require,module,exports){
-var jQuery = require("jquery");
+var $ = require("jquery")(window);
 },{"jquery":1}]},{},[2]);

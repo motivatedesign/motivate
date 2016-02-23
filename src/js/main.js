@@ -1,10 +1,10 @@
-$(document).ready(function(){
-	alert("Your book is overdue.");
-});
+// $(document).ready(function(){
+// 	alert("Your book is overdue.");
+// });
 
 // anchor movement from href="#name" to id="name"
 $(function() {
-  $('a[href*=#]:not([href=#])').click(function() {
+  $('a[href*=\\#]:not([href=\\#])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
       var target = $(this.hash);
       target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
@@ -86,34 +86,34 @@ $(document).ready(function() {
 		offset: '90%'
 	});
 	$('.wp3').waypoint(function() {
-		$('.wp3').addClass('animated fadeInUp');
+		$('.wp3').addClass('animated fadeInLeft');
 	}, {
 		offset: '80%'
 	});
 	$('.wp4').waypoint(function() {
-		$('.wp4').addClass('animated fadeInLeft');
+		$('.wp4').addClass('animated fadeInUp');
 	}, {
 		offset: '70%'
 	});
 	$('.wp5').waypoint(function() {
-		$('.wp5').addClass('animated fadeInUp');
+		$('.wp5').addClass('animated fadeInLeft');
 	}, {
 		offset: '80%'
 	});
 	$('.wp6').waypoint(function() {
-		$('.wp6').addClass('animated fadeInLeft');
+		$('.wp6').addClass('animated fadeInUp');
 	}, {
 		offset: '70%'
 	});
     $('.wp7').waypoint(function() {
-		$('.wp7').addClass('animated fadeInUp');
+		$('.wp7').addClass('animated fadeInLeft');
 	}, {
 		offset: '80%'
 	});
     $('.wp8').waypoint(function() {
-    	$('.wp8').addClass('animated fadeInLeft');
+    	$('.wp8').addClass('animated fadeInUp');
 	}, {
-		offset: '70%'
+		offset: '60%'
 	});
     $('.wp9').waypoint(function() {
     	$('.wp9').addClass('animated fadeInUp');
@@ -164,11 +164,11 @@ $(document).ready(function() {
 
 /***************** flex init ******************/
   
- //      $('.flexslider').flexslider({
- //    	animation: "slide",
- //        prevText: "",          
- //        nextText: ""
-	// });
+      $('.flexslider').flexslider({
+    	animation: "slide",
+        prevText: "",          
+        nextText: ""
+	});
   
 
 
