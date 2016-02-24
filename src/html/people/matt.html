@@ -1,1 +1,29 @@
-matt.html
+{% include "partials/_head.html" %}
+
+  <title>About</title>
+  <meta name="description" content="{{meta.content}}">
+
+</head>
+  <body id="bio">
+    <!--[if lt IE 8]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <div class="container">
+
+      <section id="matt1"> 
+        {% include "partials/_nav3.html" %}
+      </section>
+      <section id="bio2" class="page-center h-mtop100">
+        <h2 class="gotham-lead h-mbottom100">MATTHEW KARP IS A SENIOR DESIGN RESEARCHER HERE AT MOTIVATE. HE IS A MASTER OF INVESTIGATION IN USABILITY RESEARCH SESSIONS.</h2>
+      </section>
+
+      <section>
+      	<div class="third"></div>
+      	<div class="third"></div>
+      	<div class="third"></div>
+      </section>
+        
+    </div>
+
+      {% include "partials/_foot.html" %}

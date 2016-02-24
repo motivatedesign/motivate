@@ -212,9 +212,9 @@ and (min-width : 1424px) {
   }
 
   nav ul li {
-  display: inline-block;
-  float: none;
-  width: 100%;
+    display: inline-block;
+    float: none;
+    width: 100%;
   }
 
   #work nav a {

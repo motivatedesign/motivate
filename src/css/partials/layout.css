@@ -26,13 +26,13 @@ body {
 }
 
 p {
-    font-size: 20px;
-    line-height: 23px;
-        font-family: Sentinel;
-    font-weight: 200;
-    font-size: 16px;
-    color: #42423f;
-    letter-spacing: 0;
+  font-size: 20px;
+  line-height: 23px;
+  font-family: Sentinel;
+  font-weight: 200;
+  font-size: 16px;
+  color: #42423f;
+  letter-spacing: 0;
 }
 
 .container {
@@ -41,8 +41,8 @@ p {
 }
 
 div, a, span {
-    line-height:1.5; /* font-size:1(12px) + line-space:0.33(4px) = 16px */
-    letter-spacing:0.03em;
+  line-height:1.5; /* font-size:1(12px) + line-space:0.33(4px) = 16px */
+  letter-spacing:0.03em;
 }
 
 h1, h2, h3, h4, h5, h6 {
