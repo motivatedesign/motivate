@@ -116,29 +116,29 @@ $(document).ready(function() {
 		offset: '60%'
 	});
     $('.wp9').waypoint(function() {
-    	$('.wp9').addClass('animated fadeInUp');
+    	$('.wp9').addClass('animated fadeInLeft');
 	}, {
 		offset: '80%'
 	});
     $('.wp10').waypoint(function() {
-        $('.wp10').addClass('animated fadeInLeft');
+        $('.wp10').addClass('animated fadeInUp');
 	}, {
 		offset: '70%'
 	});
     $('.wp11').waypoint(function() {
-        $('.wp11').addClass('animated fadeInUp');
+        $('.wp11').addClass('animated fadeInLeft');
 	}, {
 		offset: '80%'
 	});
     $('.wp12').waypoint(function() {
         $('.wp12').addClass('animated fadeInLeft');
 	}, {
-		offset: '70%'
+		offset: '80%'
 	});
     $('.wp13').waypoint(function() {
         $('.wp13').addClass('animated fadeInUp');
 	}, {
-		offset: '80%'
+		offset: '70%'
 	});
 
 });

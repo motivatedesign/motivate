@@ -25,6 +25,16 @@ body {
   /* lost-utility: edit; */
 }
 
+p {
+    font-size: 20px;
+    line-height: 23px;
+        font-family: Sentinel;
+    font-weight: 200;
+    font-size: 16px;
+    color: #42423f;
+    letter-spacing: 0;
+}
+
 .container {
   overflow: auto;
   padding-bottom: 160px;
@@ -40,6 +50,12 @@ h1, h2, h3, h4, h5, h6 {
   padding:0px;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+h3 {
+  font-family: Gotham-Medium;
+  font-weight: 200;
+  font-size: 12px;
 }
 
 h4, h5 {
@@ -88,6 +104,10 @@ section {
 }
 
 /*navigation*/
+
+#hamburger2 span, #hamburger2 span:after, #hamburger2 span:before {
+  color: $text-color;
+}
 
 nav {
  position:absolute;
@@ -275,6 +295,24 @@ nav a {
     line-height: 23px;
     font-weight: 200;
     letter-spacing: 0;
+}
+
+.eeo-header {
+  font-family: Gotham;
+  color: #707070;
+  font-weight: 200;
+  letter-spacing: .78px
+}
+
+.eeo {
+    font-family: Gotham;
+    font-weight: 200;
+    font-size: 8px;
+    color: #707070;
+    line-height: 15px;
+    letter-spacing: 1px;
+    padding-bottom: 8px;
+    max-width: none;
 }
 
 .hidden-load{visibility:hidden;}

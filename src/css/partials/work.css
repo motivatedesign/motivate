@@ -1,13 +1,15 @@
 #work {
-  
-  nav a {
-    color: var( --text-color);
+
+  h3 {
+    color: $greydark;
+    font-family: Gotham-Bold;
+    font-size: 25px;
+    font-size: 2.5rem;
+    line-height: 2pc;
   }
 
-  .page-center {
-    height: 60vh;
-    position: relative;
-    top: 26%;
+  nav a {
+    color: $text-color;
   }
 
   #work1 {
@@ -22,16 +24,32 @@
 
       
       h1 img {
-          max-width: 896px;
+          max-width: 836px;
       }
+
+      .motivate-header {
+        top: 20%;
+      }
+
   }
 
-  .motivate-header {
-      background: url("../images/work/YOUX.jpg");
+  .page-center {
+    position: relative;
   }
 
-  #work2 {
 
+  #work2, #work3, #work4, #work4, #work5, #work6, #work7 {
+    height: 400px;
+    overflow: hidden;
+  }
+
+  .half img {
+    position: absolute;
+    top: 80px;
+    left: auto;
+    right: 40px;
+    width: 472px;
+    height: auto;
   }
 
   figure {
@@ -97,6 +115,22 @@
   }
 
   .more-link {
+    font-family: Gotham-Medium;
+    font-size: 2.8rem;
+    color: $text-color;
+    line-height: 37px;
+    text-decoration: underline;
+    font-style: normal;
+    font-size: 12px;
+    color: #6cc8b9;
+    letter-spacing: .81px;
+    line-height: 12px;
+    text-transform: uppercase;
+    text-decoration: none;  
+    font-weight: 700;
+  }
+
+  .work-button {
     border-radius: 1px;
     background-color: #f36531;
     font-size: 11px;
@@ -112,6 +146,34 @@
     width: 219px;
     text-align: center;
     font-style: normal;
+  }
+
+  .bucket {
+    top: 80px;
+  }
+
+  .bucket-inner {
+    padding-left: 0;
+    padding-right: 105px;
+  }
+
+  #work-line {
+    display: inline;
+    padding: 10px 20px 10px 20px;
+    position: relative;
+    top: 10px;
+  }
+
+  #work-equifax {
+    display: inline;
+    height: auto;
+    width: 118px;
+    position: relative;
+    bottom: 5px;
+  }
+
+  #todd-brown {
+    display: inline;
   }
 
 }
