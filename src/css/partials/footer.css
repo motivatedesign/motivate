@@ -11,6 +11,12 @@ footer {
 #social {
   position: relative;
   left: 180px;
+  max-width: 400px;
+}
+
+#social-wrapper {
+  width: 400px;
+  margin: 0 auto;
 }
 
 #social-slide1, #social-slide2, #social-slide3, #social-slide4 {

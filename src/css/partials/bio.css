@@ -1,1 +1,20 @@
-bio.css
+#bio {
+
+	#bio1 {
+
+	}
+
+
+
+/*banners*/
+
+	#matt1 {
+		height: 600px;
+    background-image: url(../images/people/matt_karp/MattLead.jpg);
+    background-size: cover;
+    width: 100%;
+    background-position-y: 74px;
+    background-repeat: no-repeat;
+	}
+
+}

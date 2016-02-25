@@ -59,89 +59,123 @@ $(function() {
 
 /***************** Waypoints ******************/
 
-$(document).ready(function() {
+// $(document).ready(function() {
+
+
     $('.active-branch').waypoint(function() {
         $('.active-branch').addClass('animated slideInleft');
     }, {
 		offset: '75%'
-	});
+	},{
+    context: '.container'
+});
     $('.wp1').waypoint(function() {
         $('.motivate-header').addClass('animated slideInUp');
 	}, {
 		offset: '75%'
-	});
+	},{
+    context: 'section'
+});
     $('.wpwork').waypoint(function() {
         $('.motivate-header').addClass('animated fadeIn');
     }, {
 		offset: '75%'
-	});
+	},{
+    context: 'section'
+});
     $('.wplead').waypoint(function() {
         $('.wplead').addClass('animated fadeInUp');
     }, {
     	offset: '75%'
-	});
+	},{
+    context: 'section'
+});
 	$('.wp2').waypoint(function() {
 		$('.wp2').addClass('animated fadeInLeft');
 	}, {
 		offset: '90%'
-	});
+	},{
+    context: 'section'
+});
 	$('.wp3').waypoint(function() {
 		$('.wp3').addClass('animated fadeInLeft');
 	}, {
 		offset: '80%'
-	});
+	},{
+    context: 'section'
+});
 	$('.wp4').waypoint(function() {
 		$('.wp4').addClass('animated fadeInUp');
 	}, {
 		offset: '70%'
-	});
+	},{
+    context: 'section'
+});
 	$('.wp5').waypoint(function() {
 		$('.wp5').addClass('animated fadeInLeft');
 	}, {
 		offset: '80%'
-	});
+	},{
+    context: 'section'
+});
 	$('.wp6').waypoint(function() {
 		$('.wp6').addClass('animated fadeInUp');
 	}, {
 		offset: '70%'
-	});
+	},{
+    context: 'section'
+});
     $('.wp7').waypoint(function() {
 		$('.wp7').addClass('animated fadeInLeft');
 	}, {
 		offset: '80%'
-	});
+	},{
+    context: 'section'
+});
     $('.wp8').waypoint(function() {
     	$('.wp8').addClass('animated fadeInUp');
 	}, {
 		offset: '60%'
-	});
+	},{
+    context: 'section'
+});
     $('.wp9').waypoint(function() {
     	$('.wp9').addClass('animated fadeInLeft');
 	}, {
 		offset: '80%'
-	});
+	},{
+    context: 'section'
+});
     $('.wp10').waypoint(function() {
         $('.wp10').addClass('animated fadeInUp');
 	}, {
 		offset: '70%'
-	});
+	},{
+    context: 'section'
+});
     $('.wp11').waypoint(function() {
         $('.wp11').addClass('animated fadeInLeft');
 	}, {
 		offset: '80%'
-	});
+	},{
+    context: 'section'
+});
     $('.wp12').waypoint(function() {
         $('.wp12').addClass('animated fadeInLeft');
 	}, {
 		offset: '80%'
-	});
+	},{
+    context: 'section'
+});
     $('.wp13').waypoint(function() {
         $('.wp13').addClass('animated fadeInUp');
 	}, {
 		offset: '70%'
-	});
-
+	},{
+    context: 'section'
 });
+
+// });
 
 
 /***************** Nav Transformicon ******************/

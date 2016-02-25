@@ -227,31 +227,46 @@ and (min-width : 1424px) {
 
   .half {
     lost-column: 1/1;
+    text-align: center;
   }
 
   .third {
     lost-column: 1/1;
+    text-align: center;
   }
 
   .two-thirds {
     lost-column: 1/1;
-  }
-
-  #home #home4 img {
-    position: static;
-  }
-
-  #home #home3, #home #home4 {
-    height: auto;
+    text-align: center;
   }
 
   .bucket {
     top: 10%;
   }
 
-  section {
-    min-height: 1000px;
+  .bucket-inner {
+    padding-left: 0;
+    margin-top: 50px;
+    text-align: center;
   }
+
+  #home {
+
+    #home3, #home4, #home5, #home6 {
+      height: auto;
+      
+      img {
+        min-width: inherit;
+        position: static;
+      }
+    }
+
+    #home6 img {
+      float: none;
+    }
+
+  }
+
 
 }
 

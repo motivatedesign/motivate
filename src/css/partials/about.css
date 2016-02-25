@@ -1,5 +1,9 @@
 #about {
 
+    #about1 {
+      padding-top: 48px;
+    }
+
 	figure {
 		display: block;
 		
@@ -80,19 +84,19 @@
 	}
 
 	.about-img1 {
-	  background: url("/dist/images/about/about01.jpg");
+	  background: url("./images/about/about01.jpg");
 	}
 
 	.about-img2 {
-    background: url("/dist/images/about/about02.jpg");
+    background: url("./images/about/about02.jpg");
 	}
 
 	.about-img3 {
-	  background: url("/dist/images/about/about03.jpg");
+	  background: url("./images/about/about03.jpg");
 	}
 
 	.about-img4 {
-	  background: url("/dist/images/about/about04.jpg");
+	  background: url("./images/about/about04.jpg");
 	}
 
 	.more-link {
