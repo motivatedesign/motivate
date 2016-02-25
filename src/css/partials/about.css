@@ -1,8 +1,20 @@
 #about {
 
-    #about1 {
-      padding-top: 48px;
-    }
+  .navicon {
+    top: -23px;
+  }
+
+  #mobile-logo {
+    bottom: 17px;
+  }
+
+  .nav-toggle span, .nav-toggle span:after, .nav-toggle span:before {
+    background: $text-color;
+  }
+
+  #about1 {
+    padding-top: 48px;
+  }
 
 	figure {
 		display: block;
@@ -43,17 +55,21 @@
     opacity: 0;
 	}
 
-	.offerings li {
-    font-size: 1rem;
-    color: #787574;
-    letter-spacing: 1.5px;
-    line-height: 13px;
-    list-style-type: circle;
-    display: inline;
-    text-transform: uppercase;
-    padding-right: 10px;
-    white-space: nowrap;
-	}
+	.offerings {
+    padding: 0;
+
+     li {
+      font-size: 1rem;
+      color: #787574;
+      letter-spacing: 1.5px;
+      line-height: 13px;
+      list-style-type: circle;
+      display: inline;
+      text-transform: uppercase;
+      padding-right: 10px;
+      white-space: nowrap;
+  	}
+  }
 
 	.offerings li::before {
     content: "•";
@@ -81,22 +97,49 @@
 		min-height: 240px;
 		background-size: cover;
 	  height: 40vh;
+    position: relative;
+
+      #staff-link-wrapper {
+        margin: auto;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 108px;
+        text-align: center;
+      }
+
+      .staff-link {
+        background: #9ccc65;
+        font-family: Gotham-Medium;
+        font-size: 18px;
+        font-size: 1.8rem;
+        color: #fff;
+        letter-spacing: .85px;
+        line-height: 18px;
+        padding: 30px;
+        display: inline-block;
+        width: 300px;
+        margin: 10px;
+      }
+
 	}
 
 	.about-img1 {
-	  background: url("./images/about/about01.jpg");
+	  background: url("../images/about/about01.jpg");
 	}
 
 	.about-img2 {
-    background: url("./images/about/about02.jpg");
+    background: url("../images/about/about02.jpg");
 	}
 
 	.about-img3 {
-	  background: url("./images/about/about03.jpg");
+	  background: url("../images/about/about03.jpg");
 	}
 
 	.about-img4 {
-	  background: url("./images/about/about04.jpg");
+	  background: url("../images/about/about04.jpg");
 	}
 
 	.more-link {
@@ -139,9 +182,75 @@
     text-transform: uppercase;
 	 }
 
-  .page-center {
-    padding-top: 200px;
+  section .page-center {
+    padding-top: 150px;;
     padding-bottom: 100px;
+  }
+
+
+  
+  .overlay-wrapper {
+  width: 50%;
+  height: 50vh;
+  transition: all 300ms ease-in-out;
+  }
+
+  .overlay-wrapper {
+    position: relative;
+    overflow: hidden;
+    float: left;
+  }
+
+  .overlay-wrapper .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: all 300ms ease-in-out;
+    filter: alpha(opacity=0);
+    opacity: 0;
+  }
+
+  .overlay-wrapper i {
+    color: #fff;
+    font-size: 40px;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 20%;
+    right: 0;
+    left: 24vw;
+  }
+
+  .overlay-wrapper:hover .overlay, .overlay-wrapper:focus img {
+    transform: scale(1.1);
+  }
+
+  .overlay-wrapper:hover .overlay, .overlay-wrapper:focus .overlay {
+  filter: alpha(opacity=1);
+  opacity: 1;
+  z-index: 9; 
+  }
+
+  i {
+  color: #fff;
+  font-size: 20px;
+  position: absolute;
+  }
+
+  nav li.active-branch a {
+      color: #42423f !important;
+  }
+
+  nav li.active-branch a:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #42423f;
+    visibility: visible;
   }
 
 }

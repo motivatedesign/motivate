@@ -107,7 +107,7 @@ img {
 /*navigation*/
 
 #hamburger2 span, #hamburger2 span:after, #hamburger2 span:before {
-  color: $text-color;
+  background: $text-color;
 }
 
 nav {
@@ -140,6 +140,7 @@ nav a {
   font-size: 1.1rem;
   letter-spacing: 0.27rem;
   line-height: 1.4rem;
+  position: relative;
  }
 
 #logo {
@@ -159,7 +160,6 @@ nav a {
 .header-nav.open {
   visibility: visible;
   opacity: 0.9;
-  -webkit-transition: opacity 0.5s;
   transition: opacity 0.5s; }
 
 .nav-toggle {
@@ -220,7 +220,6 @@ nav a {
 }
 
 #nav3 {
-  background-color: $white;
    
   & a {
     color: var(--text-color);

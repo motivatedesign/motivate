@@ -35,7 +35,7 @@ and (min-width : 1424px) {
     width: 55px;
     height: auto;
     position: relative;
-    bottom: 12px;
+    bottom: 17px;
     left: 90px;
   }
 
@@ -60,6 +60,7 @@ and (min-width : 1424px) {
 
   .navicon {
     visibility: visible;
+    top: 25px;
   }
 
   .menu-wrapper {
@@ -154,21 +155,6 @@ and (min-width : 1424px) {
     transition-delay: 0.2s
   }
 
-  .header-nav {
-    position: fixed;
-    background-color: #000;
-    width: 100% !important;
-    height: 100vh;
-    top: 0;
-    left: 0;
-    z-index: 99999;
-    visibility: hidden;
-    opacity: 0;
-    -webkit-transition: opacity .5s,visibility 0s .5s;
-    transition: opacity .5s,visibility 0s .5s;
-    margin: 0 !important;
-  }
-
   .header-container .menu-wrapper.hs-menu-flow-horizontal {
     min-width: 0px !important;
     position: relative;
@@ -221,7 +207,57 @@ and (min-width : 1424px) {
     color: $white;
   }
 
+  #about nav a {
+    color: $white;
+  }
+
+  #mona nav a {
+    color: $white;
+  }
+
+  /*about page*/
+
+  #about {
+
+    figure p {
+      font-size: 2.6rem;
+    }
+
+    .offerings {
+      
+      li {
+        line-height: 24px;
+        display: block;
+      }
+    }
+  }
+
+  nav li>a:hover:before {
+    visibility: hidden;
+  }
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width:768px) {
 

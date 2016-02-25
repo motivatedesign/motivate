@@ -176,4 +176,19 @@
     display: inline;
   }
 
+  nav li.active-branch a {
+    color: #42423f !important;
+  }
+
+  nav li.active-branch a:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #42423f;
+    visibility: visible;
+  }
+
 }

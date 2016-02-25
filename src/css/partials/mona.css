@@ -1,13 +1,5 @@
 #mona {
 
-	.navicon {
-		top: 25px;
-	}
-
-	#mobile-logo {
-		bottom: 17px;
-	}
-
 	.nav-toggle span, .nav-toggle span:after, .nav-toggle span:before {
 		background: $text-color;
 	}
@@ -19,10 +11,6 @@
     width: 100%;
     background-position-y: 74px;
     background-repeat: no-repeat;
-	}
-
-	#mona2 {
-	
 	}
 
 	.mona-left-header {

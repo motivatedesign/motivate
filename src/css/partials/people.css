@@ -95,7 +95,11 @@
     font-style: normal;
     text-decoration: underline;
     font-weight: 500;
-}
+  }
+  
+  nav li>a:before {
+    background-color: $white;
+  }
 
 
 
