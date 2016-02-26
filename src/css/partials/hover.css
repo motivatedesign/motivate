@@ -267,5 +267,14 @@ nav li #logo-anchor:hover:before {
   visibility: hidden;
 }
 
+#logo:hover{
+  animation: rotate 2s linear;
+}
+
+@-webkit-keyframes rotate {
+    from { transform: rotateX(-360deg)}
+    to{ transform: rotateX(360deg)}
+}
+
 
 
