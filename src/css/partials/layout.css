@@ -24,7 +24,7 @@ body {
 p {
   font-size: 20px;
   line-height: 23px;
-  font-family: Sentinel;
+  font-family: Sentinel-Light;
   font-weight: 200;
   font-size: 16px;
   color: #42423f;
@@ -46,6 +46,8 @@ h1, h2, h3, h4, h5, h6 {
   padding:0px;
   margin-top: 20px;
   margin-bottom: 20px;
+  font-family: Gotham-Medium;
+  font-weight: 300;
 }
 
 h3 {

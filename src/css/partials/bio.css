@@ -1,8 +1,23 @@
 #bio {
 
-	#bio1 {
-
+	.nav-toggle span, .nav-toggle span:after, .nav-toggle span:before {
+		background: $text-color;
 	}
+
+  #bio2 {
+    text-align: center;
+    height: auto;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    border: 0;
+  }
+
+  #bio3 {
+    height: auto;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    border: 0;
+  }
 
 
 
