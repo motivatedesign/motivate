@@ -117,7 +117,7 @@ gulp.task('images', function(){
 // HTML
 gulp.task('html', function(){
   nunjucksRender.nunjucks.configure(['src/html/'], {watch: false});
-  return gulp.src(['./src/html/*.html', './src/html/partials/!(_)*.html', './src/html/people/*.html'])
+  return gulp.src(['./src/html/*.html', './src/html/partials/!(_)*.html', './src/html/**/*.html'])
     .pipe(nunjucksRender())
     .pipe(htmlmin({collapseWhitespace: true}))
     .pipe(gulp.dest('./dist/'))
@@ -129,7 +129,7 @@ gulp.task('watch', function(){
   
   gulp.watch('./src/**/*.js', ['scripts', browserSync.reload]);
 
-  gulp.watch(['*.html','./src/html/*.html', './src/html/partials/*.html', './src/html/people/*.html', './dist/*.html'], ['html', browserSync.reload]);
+  gulp.watch(['*.html','./src/html/*.html', './src/html/**/*.html', './dist/*.html'], ['html', browserSync.reload]);
 });
 
 

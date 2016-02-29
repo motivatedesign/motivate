@@ -84,7 +84,7 @@
 
   #christo1 {
     height: 600px;
-    background-image: url(../images/people/christo_claassens/christolead.jpg);
+    background-image: url(../images/people/christo_claassens/christo_banner.jpg);
     background-size: cover;
     width: 100%;
     background-position-y: 74px;
@@ -208,7 +208,7 @@
     background-repeat: no-repeat;
   }
 
-  #alyce2 {
+  #alyce1 {
     height: 600px;
     background-image: url(../images/people/alyce_green/alyce_banner.jpg);
     background-size: cover;
