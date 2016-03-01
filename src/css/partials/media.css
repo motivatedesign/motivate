@@ -61,7 +61,7 @@ and (min-width : 1424px) {
     height: 100%;
     top: 0;
     left: 0;
-    z-index: 99999;
+    z-index: 99;
     visibility: hidden;
     opacity: 0;
     -webkit-transition: opacity 0.5s, visibility 0s 0.5s;
@@ -200,7 +200,7 @@ and (min-width : 1424px) {
 
   nav a {
     padding: 2vh;
-    color: #fff;
+    color: $white !important;
     letter-spacing: 2.7px;
     line-height: 14px;
     font-size: 24px;
@@ -211,18 +211,6 @@ and (min-width : 1424px) {
     display: inline-block;
     float: none;
     width: 100%;
-  }
-
-  #work nav a {
-    color: $white;
-  }
-
-  #about nav a {
-    color: $white;
-  }
-
-  #mona nav a {
-    color: $white;
   }
 
   /*about page*/
@@ -369,6 +357,40 @@ and (min-width : 1424px) {
     }
   }
 
+    #resources {
+
+    .motivate-header {
+      left: 0px;
+    }
+
+    .motivate-header a {
+      bottom: 15px;
+      top: initial;
+    }
+
+    #resources4 #resources-book-wrapper {
+      bottom: 0px; 
+    }
+
+    .bucket {
+      top: 0px;
+      margin-bottom: 20px;
+    }
+
+    .bucket-inner {
+      padding: 0;
+    }
+
+    #resources2, #resources3, #resources4, #resources5, #resources6, #resources7 {
+      height: auto;
+      padding-bottom: 40px;
+
+      img {
+        min-width: inherit;
+      }
+    }
+  }
+
 
 
 
@@ -407,11 +429,19 @@ and (min-width : 1424px) {
       visibility: visible;
       top: 0;
       right: 0;
-      background: rgba(51, 51, 51, 0.7);
+      background: rgba(0,0,0,0.7);
       width: 100%;
       height: 22vw;
       position: fixed;
-      z-index: 9;
+      z-index: 999;
+  }
+
+  .hideme {
+    visibility: hidden;    
+  }
+
+  .navicon-active {
+    background: rgba(0,0,0,0.0);
   }
 
   .nav-toggle {

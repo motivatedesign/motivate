@@ -21,7 +21,7 @@
 
   #home2 {
       height: 600px;
-      padding-top: 170px;
+      padding-top: 150px;
   }
 
   #home3 {
@@ -42,7 +42,7 @@
     & img {
       position: absolute;
       top: 80px;
-      right: -348px;
+      right: -418px;
       width: 66%;
       height: auto;
       min-width: 675px;

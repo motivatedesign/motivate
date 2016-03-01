@@ -84,7 +84,7 @@ section {
 }
 
 .page-center {
-  lost-center: 896px;
+  lost-center: 960px;
   padding-right: 25px;
   padding-left: 25px;
 }
@@ -264,7 +264,7 @@ nav a {
 .bucket-inner {
   lost-center: 476px;
   padding-left: 105px;
-  min-width: 400px;
+  min-width: 500px;
 }
 
 .basic-link {

@@ -191,6 +191,8 @@ $(function() {
 	/* When user clicks the Icon */
 	$('.nav-toggle').click(function() {
 		$(this).toggleClass('active');
+		$('.cake').toggleClass('hideme');
+		$('.navicon').toggleClass('navicon-active');
 		$('.header-nav').toggleClass('open');
 		event.preventDefault();
 	});

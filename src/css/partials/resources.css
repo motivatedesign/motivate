@@ -1,6 +1,6 @@
 #resources {
 
-  #recources2 {
+  #resources2 {
     height: 400px;
     overflow: hidden;
 
@@ -11,6 +11,7 @@
       width: 472px;
       height: auto;
     }
+  }
 
     .bucket {
       top: 60px;
@@ -20,7 +21,6 @@
       padding-left: 0px;
       padding-right: 105px;
     }
-  }
 
   #resources3 {
     height: 400px;
@@ -83,6 +83,7 @@
     background-position-y: 41%;
 
     & h1 {
+      font-family: "Gotham-Book";
       font-size: 3.5rem;
       letter-spacing: 5.4px;
       line-height: 64px;
