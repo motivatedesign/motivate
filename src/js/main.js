@@ -135,7 +135,7 @@ $(function() {
     $('.wp8').waypoint(function() {
     	$('.wp8').addClass('animated fadeInUp');
 	}, {
-		offset: '60%'
+		offset: '70%'
 	},{
     context: 'section'
 });
@@ -161,14 +161,21 @@ $(function() {
     context: 'section'
 });
     $('.wp12').waypoint(function() {
-        $('.wp12').addClass('animated fadeInLeft');
+        $('.wp12').addClass('animated fadeInUp');
+	}, {
+		offset: '70%'
+	},{
+    context: 'section'
+});
+    $('.wp13').waypoint(function() {
+        $('.wp13').addClass('animated fadeInLeft');
 	}, {
 		offset: '80%'
 	},{
     context: 'section'
 });
-    $('.wp13').waypoint(function() {
-        $('.wp13').addClass('animated fadeInUp');
+    $('.wp14').waypoint(function() {
+        $('.wp14').addClass('animated fadeInUp');
 	}, {
 		offset: '70%'
 	},{

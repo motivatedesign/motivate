@@ -81,35 +81,4 @@
 		text-decoration: underline;
 	}
 
-	.flex-control-paging li a {
-    width: 11px;
-    height: 11px;
-    display: block;
-    background: #fff;
-    cursor: pointer;
-    text-indent: -9999px;
-    border-radius: 20px;
-    border: 1px solid #333;
-    box-shadow: none;
-    outline: 0;
-	}
-
-	.flex-control-paging li a:hover {
-		 background: #333;
-
-	}
-
-	.flex-control-paging li a.flex-active {
-    background: #000;
-    background: #7ACCC2;
-    border: 1px solid #7ACCC2;
-    cursor: default;
-	}
-
-	.flexslider li div {
-    margin: 0 13%;
-	}
-
-	.flex-direction-nav a {display: none;}
-
 }

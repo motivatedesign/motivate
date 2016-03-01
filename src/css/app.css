@@ -1,6 +1,6 @@
 @import "../../node_modules/normalize-css/normalize.css";
+@import "partials/flexslider.css";
 @import "partials/variables.css";
-@import "partials/helper.css";
 @import "partials/layout.css";
 @import "partials/home.css";
 @import "partials/work.css";
@@ -13,6 +13,6 @@
 @import "partials/contact.css";
 @import "partials/footer.css";
 @import "partials/hover.css";
-@import "partials/flexslider.css";
 @import "partials/animate.css";
+@import "partials/helper.css";
 @import "partials/media.css";

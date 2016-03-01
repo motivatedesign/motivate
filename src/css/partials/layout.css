@@ -31,6 +31,10 @@ p {
   letter-spacing: 0;
 }
 
+a:focus {
+    outline: none;
+}
+
 .container {
   overflow: auto;
   padding-bottom: 160px;
@@ -133,7 +137,7 @@ nav ul li {
 }
 
 nav a {
-  font-family: "Gotham-Book", sans-serif;
+  font-family: "Gotham-Medium", sans-serif;
   padding: 10px;
   margin: 20px;
   color: var(--white);
@@ -223,8 +227,8 @@ nav a {
 
 #nav3 {
    
-  & a {
-    color: var(--text-color);
+  a {
+    color: $text-color;
   }
 }
 
@@ -279,11 +283,11 @@ nav a {
 }
 
 .italic-lead {
-    font-family: Sentinel;
+    font-family: "Sentinel";
     font-weight: 300;
     color: #5f5d5c;
     font-style: italic;
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     line-height: 26px;
     letter-spacing: 1px;
     color: #403d3d;
@@ -319,6 +323,43 @@ nav a {
 
 .hidden-load{visibility:hidden;}
 .hidden-load.animated{visibility:visible;}
+
+
+/*flexslider*/
+
+.flex-control-paging li a {
+    width: 11px;
+    height: 11px;
+    display: block;
+    background: $white;
+    cursor: pointer;
+    text-indent: -9999px;
+    border-radius: 20px;
+    border: 1px solid #333;
+    box-shadow: none;
+    outline: 0;
+  }
+
+  .flex-control-paging li a:hover {
+     background: #333;
+
+  }
+
+  .flex-control-paging li a.flex-active {
+    background: #000;
+    background: $reframe;
+    border: 1px solid $reframe;
+    cursor: default;
+  }
+
+  .flexslider li div {
+    margin: 0 13%;
+  }
+
+  .flex-direction-nav a {display: none;}
+  .flex-direction-nav li a {display: none;}
+
+
 
 
 

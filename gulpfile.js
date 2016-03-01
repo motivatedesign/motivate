@@ -108,7 +108,7 @@ gulp.task('browserify', function() {
 
 // Images
 gulp.task('images', function(){
-  return gulp.src(['./src/images/**/*', './src/images/**/**/*'])
+  return gulp.src(['./src/images/**/*', './src/images/**/**/*', './src/images/**/**/*'])
     .pipe(cache(imagemin({ optimizationLevel: 3, progressive: true, interlaced: true })))
     .pipe(gulp.dest('dist/images'))
     // .pipe(notify({ message: 'Images task complete' }));
