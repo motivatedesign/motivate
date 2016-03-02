@@ -10,6 +10,10 @@
     line-height: 37px;
   }
 
+  .bucket-inner {
+    lost-center: 600px;
+  }
+
   #home1 {
       background-repeat: no-repeat;
       position: relative;
@@ -86,7 +90,7 @@
       height: auto;
       min-width: 340px;
       max-width: 1249px;
-      right: 0px;
+      right: 10vw;
     }
   }
 
@@ -124,6 +128,27 @@
     left: 0;
     background-color: #42423f;
     visibility: visible;
+  }
+
+  #buy-now-more-link {
+    font-family: Gotham-Book;
+    border-radius: 1px;
+    background-color: #6bc7bc;
+    font-size: 1.1rem;
+    line-height: 1.2em;
+    letter-spacing: 2px;
+    font-weight: 500;
+    color: $white;
+    opacity: .9;
+    text-transform: uppercase;
+    padding: 21px;
+    white-space: nowrap;
+    display: block;
+    width: 180px;
+    font-style: normal;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none;
   }
 
 

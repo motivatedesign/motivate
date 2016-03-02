@@ -62,13 +62,25 @@ $(function() {
 // $(document).ready(function() {
 
 
-    $('.active-branch').waypoint(function() {
-        $('.active-branch').addClass('animated slideInleft');
-    }, {
-		offset: '75%'
-	},{
-    context: '.container'
-});
+    $('#work').waypoint(function() {
+        $(".nav-link-wrapper a:contains('Work')").addClass('active-branch');
+    });
+    $('#about').waypoint(function() {
+        $(".nav-link-wrapper a:contains('About')").addClass('active-branch');
+    });
+
+    $('#people').waypoint(function() {
+        $(".nav-link-wrapper a:contains('People')").addClass('active-branch2');
+    });
+
+    $('#resources').waypoint(function() {
+        $(".nav-link-wrapper a:contains('Resources')").addClass('active-branch');
+    });
+
+    $('#contact').waypoint(function() {
+        $(".nav-link-wrapper a:contains('Contact')").addClass('active-branch2');
+    });
+
     $('.wp1').waypoint(function() {
         $('.motivate-header').addClass('animated slideInUp');
 	}, {

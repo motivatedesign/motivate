@@ -43,7 +43,7 @@
     position: absolute;
     top: 80px;
     left: auto;
-    right: 40px;
+    right: 20px;
     width: 472px;
     height: auto;
   }
@@ -110,6 +110,10 @@
 
   }
 
+  .basic-link {
+    font-size: initial;
+  }
+
   .more-link {
     font-family: Gotham-Medium;
     font-size: 2.8rem;
@@ -124,6 +128,20 @@
     text-transform: uppercase;
     text-decoration: none;  
     font-weight: 700;
+  }
+
+  .more-link.coming-soon {
+    background-color: #d6d7d9;
+    border-radius: 1px;
+    font-weight: 500;
+    color: #fff !important;
+    opacity: .9;
+    text-transform: uppercase;
+    padding: 21px;
+    white-space: nowrap;
+    display: inline-block;
+    width: 219px;
+    text-align: center;
   }
 
   .work-button {
@@ -151,6 +169,7 @@
   .bucket-inner {
     padding-left: 0;
     padding-right: 105px;
+    min-width: 450px;
   }
 
   #work-line {
