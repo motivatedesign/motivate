@@ -41,7 +41,7 @@ var sourcemaps = require('gulp-sourcemaps');
 var browserReporter = require("postcss-browser-reporter");
 var reporter = require("postcss-reporter")
 var lost = require('lost');
-var fontMagician = require('postcss-font-magician');
+// var fontMagician = require('postcss-font-magician');
 var gutil = require('gulp-util');
 var source = require('vinyl-source-stream');
 var browserify = require('browserify');
@@ -63,7 +63,7 @@ gulp.task('css', function(){
     mqpacker,
     browserReporter,
     reporter,
-    fontMagician({ hosted: '../src/fonts' }),
+    // fontMagician({ hosted: '../src/fonts' }),
     cssnext,
     lost
   ];

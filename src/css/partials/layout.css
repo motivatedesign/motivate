@@ -50,18 +50,18 @@ h1, h2, h3, h4, h5, h6 {
   padding:0px;
   margin-top: 20px;
   margin-bottom: 20px;
-  font-family: Gotham-Medium,"Helvetica",Helvetica,Arial,sans-serif;
-  font-weight: 300;
+  font-family: "Gotham A", "Gotham B";
+  font-weight: 500;
 }
 
 h3 {
-  font-family: Gotham-Medium;
+  font-family: "Gotham A", "Gotham B";
   font-weight: 200;
   font-size: 12px;
 }
 
 h4, h5 {
-  font-family: Gotham-Book;
+  font-family: "Gotham A", "Gotham B";
   font-size: 1.4rem;
   line-height: 20px;
   letter-spacing: 1.67px;
@@ -141,7 +141,8 @@ nav ul li {
 }
 
 nav a {
-  font-family: "Gotham-Medium", sans-serif;
+  font-family: "Gotham A", "Gotham B";
+  font-weight: 400;
   padding: 10px;
   margin: 20px;
   color: var(--white);
@@ -271,7 +272,7 @@ a.active-branch2:after {
 }
 
 .gotham-lead {
-    font-family: Gotham-Book;
+    font-family: "Gotham A", "Gotham B";
     font-weight: 500;
     font-size: 18px;
     color: #4a4a4a;
@@ -302,7 +303,7 @@ a.active-branch2:after {
 }
 
 .section-header {
-  font-family: Gotham-Bold;
+  font-family: "Gotham A", "Gotham B";
   font-size: 3.9rem;
   letter-spacing: 1px;
   line-height: 50px;
@@ -330,14 +331,14 @@ a.active-branch2:after {
 }
 
 .eeo-header {
-  font-family: Gotham;
+  font-family: "Gotham A", "Gotham B";
   color: #707070;
   font-weight: 200;
   letter-spacing: .78px
 }
 
 .eeo {
-    font-family: Gotham;
+    font-family: "Gotham A", "Gotham B";
     font-weight: 200;
     font-size: 8px;
     color: #707070;
@@ -348,7 +349,8 @@ a.active-branch2:after {
 }
 
 .tiny-text {
-  font-family: Gotham-Light;
+  font-family: "Gotham A", "Gotham B";
+  font-weight: 200;
   font-size: 1.0rem;
   color: #4A4A4A;
   letter-spacing: 0.68px;
