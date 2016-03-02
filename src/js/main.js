@@ -227,4 +227,9 @@ $(function() {
   
 
 
+/***************** svg to png ******************/
+
+  svgeezy.init(false, 'png');
+
+
 
