@@ -1,5 +1,9 @@
 #contact {
 
+  .nav-toggle span, .nav-toggle span:after, .nav-toggle span:before {
+    background: $white;
+  }
+
   #contact1 {
       position: relative;
       text-align: center;

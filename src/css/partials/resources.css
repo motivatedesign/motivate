@@ -123,21 +123,20 @@
   }
 
   #buy-now {
-    background-color: $reframe;
+    background-color: #6cc8b9;
     border: 0 none;
-    font-family: Gotham-Medium;
-    font-size: 9px;
+    font-size: 0.9rem;
     line-height: 2px;
-    font-style: normal;
     letter-spacing: 2.16px;
     text-align: center;
     text-shadow: none;
-    text-transform: uppercase;
     color: #fff;
     cursor: pointer;
-    display: inline-block;
+    display: block;
     padding: 20px;
     opacity: .8;
+    width: 140px;
+    margin: 0 auto;
   }
 
   #buy-now:hover {

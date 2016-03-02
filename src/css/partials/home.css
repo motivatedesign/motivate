@@ -1,5 +1,9 @@
 #home {
 
+  .nav-toggle span, .nav-toggle span:after, .nav-toggle span:before {
+    background: $white;
+  }
+
   p {
     font-family: "Sentinel-Light";
     font-size: 2.8rem;

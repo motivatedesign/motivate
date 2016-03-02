@@ -261,7 +261,8 @@ and (min-width : 1424px) {
 
 
 @media screen and (max-width:768px) {
-
+  
+  /* all */
   #home .motivate-header {
     font-size: 2.8rem;
     padding: 20px;
@@ -296,7 +297,9 @@ and (min-width : 1424px) {
     margin-top: 50px;
     text-align: center;
   }
+  /* end all */
 
+  /* home */
   #home {
 
     #home2 {
@@ -321,8 +324,11 @@ and (min-width : 1424px) {
       float: none;
     }
 
-    }
+  }
+  /* end home */
 
+  
+  /* work */
   #work {
 
     .bucket {
@@ -356,11 +362,14 @@ and (min-width : 1424px) {
       width: 90px;
     }
   }
-
-    #resources {
+  /* end work */
+  
+  /* resources   */
+  #resources {
 
     .motivate-header {
       left: 0px;
+      top: 180px;
     }
 
     .motivate-header a {
@@ -389,12 +398,74 @@ and (min-width : 1424px) {
         min-width: inherit;
       }
     }
+  } 
+  /* end resources */
+
+
+  /* casestudies */
+  #casestudies {
+    #casestudy2, #casestudy3, #casestudy4, #casestudy5, #casestudy6 {
+      height: auto;
+      padding-bottom: 40px;
+    }
+
+    #casestudy3 {
+      text-align: center;
+      padding-bottom: 200px;
+    }
+
+    .text-spacing3 {
+      padding-top: 60px;
+    }
+
+    #iphones img {
+      padding: 20px;
+    }
+
+    #browser2 {
+      position: relative;
+      bottom: 96px;
+      width: 500px;
+      left: -25px;
+    }
+
+    #iphone1, #iphone2 {
+      right: 0;
+      padding: 20px;
+    }
+
+    .offerings li {
+      display: block;
+      line-height: 18px;
+    }
   }
+  /* end casestudies */
 
 
+  /* people */
+  #people {
 
+    h1 {
+      font-size: 2.2rem;
+      position: static;
+      margin-top: 87px;
+      padding: 4px;
+    }
 
+    #people-small-header li {
+      padding: 4px;
+      display: block;
+    }   
 
+    #people-small-header {
+      position: static;
+    }
+   
+
+  }
+  /* end people */
+
+  /* footer */
   footer {
 
     #social-wrapper {
@@ -406,11 +477,24 @@ and (min-width : 1424px) {
     .find-us-text {
       display: none;
     }
-
   }
+  /* end footer */
 
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width:600px) {
 
@@ -437,7 +521,7 @@ and (min-width : 1424px) {
   }
 
   .hideme {
-    visibility: hidden;    
+    visibility: hidden;  
   }
 
   .navicon-active {
@@ -451,9 +535,13 @@ and (min-width : 1424px) {
     padding-right: 16%;
   }
 
-  #hamburger2 span, #hamburger2 span:after, #hamburger2 span:before {
+  .nav-toggle span, .nav-toggle span:after, .nav-toggle span:before {
     background: $white;
   }
+
+  #hamburger2 span, #hamburger2 span:after, #hamburger2 span:before {
+  background: $white;
+}
 
 
 }

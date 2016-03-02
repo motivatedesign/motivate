@@ -1,8 +1,4 @@
 #mona {
-
-	.nav-toggle span, .nav-toggle span:after, .nav-toggle span:before {
-		background: $text-color;
-	}
 	
 	#mona1 {
 		height: 600px;
