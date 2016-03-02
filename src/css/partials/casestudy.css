@@ -124,6 +124,11 @@
     padding-top: 40px;
   }
 
+  .offerings {
+    padding: 0;
+  }
+  
+
   .offerings li {
     font-size: 1.0rem;
     color: #787574;
@@ -145,12 +150,15 @@
   #work-staffing .offerings li:before {
     color: $staffing;
   }
+
   #work-research .offerings li:before {
     color: $research;
   }
+
   #work-design .offerings li:before {
     color: $design;
   }
+  
   #work-reframe .offerings li:before {
     color: $reframe;
   }
@@ -223,28 +231,33 @@
   }
 
   #phhhoto-img1 {
-    width: 70%;
     position: static;
     margin: 0 auto;
     display: block;
-    padding-top: 90px; 
-  }
-
-  #phhhoto-img2 {
-    position: relative;
-    top: 40px;
-    width: 900px;
-    right: 0;
-    left: 0;
-    margin: 0 auto;
+    padding-top: 20px;
   }
 
   #phhhoto-img3 {
-    width: 70%;
     position: static;
     margin: 0 auto;
     display: block;
-    padding-top: 160px; 
+    padding-top: 40px;
+  }
+
+  #phhhoto-img5 {
+    width: 100%;
+  }
+
+  .phhhoto4 {
+    .text-spacing2 {
+      padding-top: 40px;
+    }
+  }
+
+  .phhhoto5 {
+    .text-spacing3 {
+      padding-top: 300px;
+    }
   }
 
 }
