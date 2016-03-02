@@ -19,6 +19,7 @@
   &-mbottom100{ margin-bottom: 100px; }
   &-mbottom50{ margin-bottom: 50px; }
   &-clearnone{ clear: none !important; }
+  &-orange-color{color:$orange;}
   &-research-color{color:$research;}
   &-design-color{color:$design;}
   &-staffing-color{color:$staffing;}
