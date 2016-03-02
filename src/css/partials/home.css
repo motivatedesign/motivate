@@ -50,7 +50,7 @@
     & img {
       position: absolute;
       top: 80px;
-      right: -418px;
+      right: -371px;
       width: 66%;
       height: auto;
       min-width: 675px;
@@ -69,7 +69,7 @@
       position: relative;
       top: 5pc;
       right: -140px;
-      width: 100%;
+      width: 1000px;
       height: auto;
       min-width: 600px;
       max-width: 1249px;
@@ -86,11 +86,11 @@
       position: relative;
       top: 50pt;
       float: right;
-      width: 30%;
+      width: 60%;
       height: auto;
       min-width: 340px;
       max-width: 1249px;
-      right: 10vw;
+      right: 17vw;
     }
   }
 
@@ -101,7 +101,7 @@
   }
 
   .motivate-header {
-    font-family: Gotham-Book;
+    font-family: "Gotham A", "Gotham B";
     position: absolute;
     top: 26%;
     left: 0;
@@ -131,7 +131,7 @@
   }
 
   #buy-now-more-link {
-    font-family: Gotham-Book;
+    font-family: "Gotham A", "Gotham B";
     border-radius: 1px;
     background-color: #6bc7bc;
     font-size: 1.1rem;

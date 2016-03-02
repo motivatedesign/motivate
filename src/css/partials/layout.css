@@ -10,6 +10,7 @@ html, body {
 
 html {
   font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
   text-rendering: optimizelegibility;
   font-size: var(--rootFont);
 }
