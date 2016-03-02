@@ -491,6 +491,22 @@ and (min-width : 1424px) {
   }
   /* end people */
 
+  /*mona*/
+  #mona {
+    .expertise-icon-left {
+      padding-left: 0px;
+    } 
+
+    .expertise-icon-right {
+      padding-right: 0px;
+    }
+
+    hr {
+      border-bottom: 0px;
+    }
+  }
+  /*end mona*/
+
   /* footer */
   footer {
 
@@ -523,6 +539,18 @@ and (min-width : 1424px) {
 
 
 @media screen and (max-width:600px) {
+
+  #bio section:first-child {
+    background-position-y: 0px !important;
+    background-position-x: center;
+    height: 100vh !important;
+  }
+
+  #mona section:first-child {
+    background-position-y: 0px !important;
+    background-position-x: center;
+    height: 100vh !important;
+  }
 
   #mobile-logo {
     width: 19%;
@@ -567,7 +595,11 @@ and (min-width : 1424px) {
 
   #hamburger2 span, #hamburger2 span:after, #hamburger2 span:before {
   background: $white;
-}
+  }
+
+  #bio .nav-toggle span, #bio .nav-toggle span:after, #bio .nav-toggle span:before {
+    background: $white;
+  }
 
 
 }

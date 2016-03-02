@@ -401,6 +401,10 @@ a.active-branch2:after {
       width: 202px;
   }
 
+  .hidden-name {
+    visibility: hidden;
+  }
+
 
 
 
