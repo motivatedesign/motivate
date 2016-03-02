@@ -173,8 +173,9 @@
 	}
 
 	.about-button-text {
+    font-family: Gotham-Light;
     font-weight: 300;
-    font-size: 20px;
+    font-size: 2.0rem;
     color: #fff;
     letter-spacing: 1.36px;
     line-height: 28px;
