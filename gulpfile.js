@@ -84,7 +84,7 @@ gulp.task('browser-sync', function(){
 
 // Concatenate & Minify
 gulp.task('scripts', function(){
-  return gulp.src(['./src/js/jquery.js', './src/js/jquery.flexslider.js', './src/js/waypoints.js', './src/js/main.js'])
+  return gulp.src(['./src/js/jquery.js', './src/js/jquery.flexslider.js', './src/js/waypoints.js', './src/js/svgeezy.js', './src/js/main.js'])
     .pipe(sourcemaps.init())
     .pipe(concat('app.js'))
     .pipe(gulp.dest('dist/js'))
