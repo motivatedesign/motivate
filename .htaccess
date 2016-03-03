@@ -415,6 +415,8 @@ AddDefaultCharset utf-8
 #     RewriteRule ^ http://www.%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
 # </IfModule>
 
+Redirect 301 /jet.html http://www.motivatedesign.com/case-studies/jet.html
+
 
 # ######################################################################
 # # SECURITY                                                           #
