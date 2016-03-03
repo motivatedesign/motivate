@@ -501,6 +501,10 @@
   /* footer */
   footer {
 
+    input#mce-EMAIL {
+      width: 70%
+    }
+
     #social-wrapper {
       width: 200px;
       height: 50px;

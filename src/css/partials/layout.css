@@ -38,7 +38,6 @@ a:focus {
 
 .container {
   overflow: auto;
-  padding-bottom: 160px;
 }
 
 div, a, span {
@@ -312,7 +311,7 @@ a.active-branch2:after {
 }
 
 .italic-lead {
-    font-family: "Sentinel";
+    font-family: "Sentinel A", "Sentinel B";
     font-weight: 300;
     color: #5f5d5c;
     font-style: italic;
@@ -416,6 +415,12 @@ a.active-branch2:after {
   .image-link:hover {
     text-decoration: none;
     opacity: .8;
+  }
+
+  #pp {
+    section {
+      border-bottom: 0px;
+    }
   }
 
 
