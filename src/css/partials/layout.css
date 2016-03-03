@@ -16,7 +16,7 @@ html {
 }
 
 body {
-  font-family: var(--fontOne),"Helvetica",Helvetica,Arial,sans-serif;
+  font-family: "Gotham A", "Gotham B", "Helvetica",Helvetica,Arial,sans-serif;
   font-size: var(--fontSize);
   background: var(--white);
   /* lost-utility: edit; */
@@ -57,7 +57,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h3 {
   font-family: "Gotham A", "Gotham B";
-  font-weight: 200;
+  font-weight: 500;
   font-size: 12px;
 }
 
@@ -66,7 +66,7 @@ h4, h5 {
   font-size: 1.4rem;
   line-height: 20px;
   letter-spacing: 1.67px;
-  font-weight: 200;
+  font-weight: 500;
   text-transform: uppercase;
 }
 
@@ -85,7 +85,7 @@ section {
 }
 
 .page-center {
-  lost-center: 960px;
+  lost-center: 896px;
   padding-right: 25px;
   padding-left: 25px;
 }
@@ -291,7 +291,7 @@ a.active-branch2:after {
 
 .bucket-inner {
   lost-center: 476px;
-  padding-left: 105px;
+  padding-left: 57px;
   min-width: 500px;
 }
 
@@ -352,7 +352,7 @@ a.active-branch2:after {
 
 .tiny-text {
   font-family: "Gotham A", "Gotham B";
-  font-weight: 200;
+  font-weight: 400;
   font-size: 1.0rem;
   color: #4A4A4A;
   letter-spacing: 0.68px;
@@ -407,6 +407,15 @@ a.active-branch2:after {
 
   .hidden-name {
     visibility: hidden;
+  }
+
+  .pp1 section {
+    border-bottom: 0px !important;
+  }
+
+  .image-link:hover {
+    text-decoration: none;
+    opacity: .8;
   }
 
 

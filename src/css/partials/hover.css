@@ -215,10 +215,10 @@ nav li #logo-anchor:hover:before {
   animation: rotate 2s linear;
 }
 
-@-webkit-keyframes rotate {
+/*@-webkit-keyframes rotate {
     from { transform: rotateX(-360deg)}
     to{ transform: rotateX(360deg)}
-}
+}*/
 
 
 

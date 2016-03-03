@@ -20,6 +20,7 @@
   &-mbottom50{ margin-bottom: 50px; }
   &-clearnone{ clear: none !important; }
   &-orange-color{color:$orange;}
+  &-green-color{color: #7C7B2C;}
   &-research-color{color:$research;}
   &-design-color{color:$design;}
   &-staffing-color{color:$staffing;}
