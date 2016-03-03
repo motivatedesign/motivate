@@ -11,8 +11,9 @@ and (min-width : 1424px) {
 }
 
 @media screen and (min-width: 1180px) {
-#home .bucket-inner {
+  #home .bucket-inner {
     padding-left: 16vw;
+  }
 }
 
 
