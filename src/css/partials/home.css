@@ -11,7 +11,10 @@
   }
 
   .bucket-inner {
-    lost-center: 600px;
+    lost-center: 495px;
+    float: left;
+    padding-top: 200px;
+    padding-left: 0px;
   }
 
   #home1 {
@@ -28,12 +31,12 @@
   }
 
   #home2 {
-      height: 600px;
+      height: 700px;
       padding-top: 150px;
   }
 
   #home3 {
-      height: 600px;
+      height: 700px;
       background: url("../images/home/staffing1.jpg");
       background-size: cover;
       background-repeat: no-repeat;
@@ -42,10 +45,11 @@
   }
 
   #home4 {
-    height: 600px;
+    height: 700px;
     position: relative;
     overflow: hidden;
-    background-color: $section-light;
+    background-color: $section-dark;
+    position: relative;
 
     & img {
       position: absolute;
@@ -61,17 +65,18 @@
   }
 
   #home5 {
-    height: 600px;
+    height: 700px;
     overflow: hidden;
     background-color: $section-light;
+    position: relative;
 
     & img {
-      position: relative;
-      top: 5pc;
-      right: -140px;
-      width: 1000px;
+      position: absolute;
+      top: 80px;
+      right: -371px;
+      width: 66%;
       height: auto;
-      min-width: 600px;
+      min-width: 675px;
       max-width: 1249px;
       left: inherit;
     }
@@ -79,18 +84,19 @@
   }
 
   #home6 {
-    height: 600px;
+    height: 700px;
     overflow: hidden;
+    position: relative;
 
     & img {
-      position: relative;
-      top: 50pt;
-      float: right;
-      width: 73%;
+      position: absolute;
+      top: 80px;
+      right: -91px;
+      width: 45%;
       height: auto;
-      min-width: 340px;
+      min-width: 360px;
       max-width: 1249px;
-      right: 4vw;
+      left: inherit;
     }
   }
 

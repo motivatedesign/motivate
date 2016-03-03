@@ -9,18 +9,6 @@
 }
 
 
-@media screen and (max-width:960px) {
-  #home #home6 img {
-    position: relative;
-    top: 150px;
-    float: right;
-    width: 30%;
-    height: auto;
-    min-width: 240px;
-    max-width: 1249px;
-    right: 20px;
-  }
-}
 
 /*down*/
 @media screen and (max-width:892px) {
@@ -339,6 +327,21 @@
 
     #home6 img {
       float: none;
+    }
+
+    .motivate-header {
+      font-size: 2.8rem;
+      padding: 20px;
+      top: 22vh;
+    }
+
+    .bucket-inner {
+      float: none;
+      padding-top: 0px;
+    }
+
+    .image-wrap {
+      text-align: center;
     }
 
   }
