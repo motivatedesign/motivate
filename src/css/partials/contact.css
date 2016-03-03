@@ -95,6 +95,7 @@
       height: 24px;
       width: 300px;
       border: 1px solid #ccc;
+      margin: 0 auto;
     }
 
     input[type="submit"] {
