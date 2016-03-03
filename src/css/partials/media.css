@@ -210,6 +210,12 @@
     width: 100%;
   }
 
+  a.active-branch2:after, a.active-branch:after {
+    background-color: #fff;
+    visibility: hidden;
+  }
+
+
   /*about page*/
 
   #about {
@@ -302,7 +308,7 @@
   #home {
 
     .motivate-header {
-      font-size: 2.8rem;
+      font-size: 3.8rem;
       padding: 20px;
       top: 16vh;
     }
@@ -569,7 +575,7 @@
       visibility: visible;
       top: 0;
       right: 0;
-      background: rgba(0,0,0,0.7);
+      background: rgba(0,0,0,.4);
       width: 100%;
       height: 22vw;
       position: fixed;
@@ -603,6 +609,19 @@
     background: $white;
   }
 
+  #resources .motivate-header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+  }
+
+
+}
+
+@media screen and (max-width:480px) {
+
+  #home .motivate-header {
+  font-size: 1.8rem;
+  }
 
 }
 
