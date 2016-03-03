@@ -368,6 +368,7 @@
 
     .bucket-inner {
       padding: 0;
+      min-width: 0px;
     }
 
     #work2, #work3, #work4, #work5, #work6, #work7 {
@@ -393,6 +394,30 @@
     }
   }
   /* end work */
+
+  /*about*/
+  #about { 
+   
+    #about1 {
+      padding-top: 0;
+    }
+
+    .about-banner #staff-link-wrapper {
+      padding-bottom: 188px;
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+
+    .navicon {
+      top: 0px;
+    }
+
+    .nav-toggle span, .nav-toggle span:after, .nav-toggle span:before {
+      background: $white;
+    }
+  }
+  /*end about*/
+
   
   /* resources   */
   #resources {
@@ -470,6 +495,20 @@
     }
   }
   /* end casestudies */
+
+  /*#whitepapers*/
+
+  #whitepaper {
+    .nav-toggle span, .nav-toggle span:after, .nav-toggle span:before {
+      background: $white;
+    }
+
+    .container #mc_embed_signup_scroll input[type=submit] {
+      width: 70%;
+    }
+  }
+
+  /*end whitepapers*/
 
 
   /* people */
@@ -560,6 +599,12 @@
     height: 100vh !important;
   }
 
+  #whitepaper section:first-child {
+    background-position-y: 0px !important;
+    background-position-x: center;
+    height: 100vh !important;
+  }
+
   #mobile-logo {
     width: 19%;
     height: auto;
@@ -617,7 +662,7 @@
 
 }
 
-@media screen and (max-width:480px) {
+@media screen (max-width:480px) {
 
   #home .motivate-header {
   font-size: 1.8rem;
