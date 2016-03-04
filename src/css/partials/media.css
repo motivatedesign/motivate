@@ -456,6 +456,13 @@
   } 
   /* end resources */
 
+  /*contact*/
+  #contact #mc_embed_signup_scroll input {
+    margin: 0 auto;
+  }
+
+  /*end contact*/
+
 
   /* casestudies */
   #casestudies {

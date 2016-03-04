@@ -309,6 +309,10 @@ a.active-branch2:after {
   text-decoration: underline;
 }
 
+.basic-link:hover {
+  opacity: .9;
+}
+
 .section-header {
   font-family: "Gotham A", "Gotham B";
   font-weight: 700;

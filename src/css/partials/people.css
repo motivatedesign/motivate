@@ -20,6 +20,11 @@
 
   h3 {
     text-transform: uppercase;
+    margin-bottom: 0px;
+  }
+
+  .people-icons a:hover {
+    opacity: .9;
   }
 
   #people1 {
@@ -53,7 +58,15 @@
     border-radius: 50% !important;
     width: 150px !important;
     max-height: 150px !important;
-}
+  }
+
+  .persons-photo:hover {
+    opacity: .9;
+  }
+
+  #people-text a:hover {
+    opacity: .9;
+  }
 
   #people-small-header {
     font-family: "Gotham-Medium";

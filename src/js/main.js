@@ -105,7 +105,7 @@ $(function() {
 	$('.wp2').waypoint(function() {
 		$('.wp2').addClass('animated fadeInLeft');
 	}, {
-		offset: '90%'
+		offset: '70%'
 	},{
     context: 'section'
 });
