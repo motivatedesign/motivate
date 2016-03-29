@@ -114,7 +114,7 @@
     color: var(--white);
     font-size: 6.8rem;
     letter-spacing: 0;
-  line-height: 9rem;
+    line-height: 9rem;
     font-weight: 300;
   }
 
@@ -156,12 +156,19 @@
   .arrow-container {
     width: 100%; 
     height: 5rem; 
-    margin: 7.5rem auto 0;
+    margin: 6.5rem auto 0;
+
+    a {
+      width: 40px;
+      display: inline-block;
+    }
   }
 
   .h-arrow {
     height: 18px; 
     width: 18px;
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
   }
 
 

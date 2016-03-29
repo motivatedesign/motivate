@@ -45,6 +45,10 @@ a:focus {
 
 .container {
   overflow: auto;
+
+  &.hidden {
+    overflow: hidden;
+  }
 }
 
 div, a, span {
