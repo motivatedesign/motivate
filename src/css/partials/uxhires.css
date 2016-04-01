@@ -9,12 +9,6 @@
 	background-size: cover;
 	min-height: 600px;
 
-	p {
-    font-family: "Sentinel A", "Sentinel B";
-    font-size: 2.8rem;
-    line-height: 37px;
-  }
-
 	.logo-wrapper {
 		width: 100%;
 		margin-top: 12%;
@@ -38,6 +32,129 @@
 		}
 	}
 }
+
+#uxhires2 {
+	height: 700px;
+	padding-top: 10%;
+}
+
+.section-center {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-right: 25px;
+	padding-left: 25px;
+
+	&.center {
+		text-align: center;
+	}
+
+	&.hidden {
+		overflow: hidden;
+	}
+}
+
+#uxhires3 {
+	height: 700px;
+	padding-top: 10%;
+	background: #F9F9F9;
+	overflow: hidden;
+	
+	.uxwrapper {
+		float: left;
+		width: 33.333333%;
+
+		.ux-head {
+			color: #6C8143;
+			margin-top: 3rem;
+			font-size: 1.3rem;
+			text-transform: uppercase;
+			font-weight: 500;
+		}
+
+		.ux-subhead {
+			width: 75%;
+			margin: 0.7rem auto;
+			font-size: 1.2rem;
+		}
+
+		a {
+			font-weight: 500;
+			color: rgba(0, 0, 0, 0.75);
+			text-decoration: underline;
+		}
+	}
+}
+
+#uxhires4{
+	height: 700px;
+	overflow: hidden;
+	position: relative;
+
+	& img {
+    position: absolute;
+    top: 80px;
+    right: -371px;
+    width: 66%;
+    height: auto;
+    min-width: 675px;
+    max-width: 1249px;
+    left: inherit;
+  }
+
+  .section-center {
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+		padding-right: 25px;
+		padding-left: 25px;
+	}
+}
+
+#uxhires5 {
+	height: 500px;
+	background: #F9F9F9;
+	overflow: hidden;
+}
+
+#uxhires6 {
+	height: 700px;
+	overflow: hidden;
+	position: relative;
+
+	& img {
+    position: absolute;
+    top: 80px;
+    right: -371px;
+    width: 66%;
+    height: auto;
+    min-width: 675px;
+    max-width: 1249px;
+    left: inherit;
+  }
+}
+
+#uxhires7 {
+	height: 500px;
+	background: #F9F9F9;
+	overflow: hidden;
+}
+
+#uxhires8 {
+	height: 700px;
+}
+
+.green-lead {
+  font-size: 3rem;
+  color: #ABD278;
+  line-height: 40px;
+
+  &.m-bottom {
+  	margin-bottom: 7rem;
+  }
+}
+
+
 
 
 
