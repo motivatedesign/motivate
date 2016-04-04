@@ -52,11 +52,15 @@
 	&.hidden {
 		overflow: hidden;
 	}
+
+	&.wider {
+		width: 90%;
+	}
 }
 
 #uxhires3 {
 	height: 700px;
-	padding-top: 10%;
+	padding-top: 7%;
 	background: #F9F9F9;
 	overflow: hidden;
 	
@@ -64,10 +68,14 @@
 		float: left;
 		width: 33.333333%;
 
+		.ux-img {
+			width: 300px;
+		}
+
 		.ux-head {
 			color: #6C8143;
 			margin-top: 3rem;
-			font-size: 1.3rem;
+			font-size: 1.5rem;
 			text-transform: uppercase;
 			font-weight: 500;
 		}
@@ -75,7 +83,7 @@
 		.ux-subhead {
 			width: 75%;
 			margin: 0.7rem auto;
-			font-size: 1.2rem;
+			font-size: 1.3rem;
 		}
 
 		a {
@@ -95,7 +103,7 @@
     position: absolute;
     top: 7rem;
     right: 0px;
-    width: 35%;
+    width: 33%;
   }
 
   .section-center {
@@ -123,6 +131,26 @@
 		font-weight: 400;
 		font-size: 3rem;
   }
+
+  .contain-testimonial {
+  	width: 80%;
+  	margin: 0 auto; 
+  	text-align: left;
+
+	  p {
+	  	font-style: italic;
+	  	display: inline-block;
+	  	padding-right: 5rem;
+	  	padding-left: 1rem;
+	  	border-right: 1px solid #CCC;
+	  	margin-top: 1rem;
+	  }
+
+	  img {
+	  	display: inline-block;
+	  	padding-left: 5rem;
+	  }
+	}
 }
 
 #uxhires6 {
@@ -132,14 +160,20 @@
 
 	& img {
     position: absolute;
-    top: 80px;
-    right: -371px;
-    width: 66%;
-    height: auto;
-    min-width: 675px;
-    max-width: 1249px;
-    left: inherit;
+    top: 9rem;
+    right: 0px;
+    width: 33%;
   }
+
+  .bucket-inner {
+  	padding-top: 160px;
+  }
+
+  a {
+		font-weight: 500;
+		color: rgba(0, 0, 0, 0.75);
+		text-decoration: underline;
+	}
 }
 
 #uxhires7 {
@@ -149,7 +183,72 @@
 }
 
 #uxhires8 {
+	height: 500px;
+	padding-top: 8%;
+	position: relative;
+
+	h2 {
+		font-size: 4rem;
+		color: #787574;
+	}
+	
+	.related-container {
+		width: 95%;
+		margin: 5rem auto 0;
+		overflow: hidden; 
+		position: relative;
+		background: green;
+		height: 35rem;
+
+		.related-box {
+			width: 33.333333%;
+			float: left;
+			height: 100%;
+			padding: 0 2rem;
+
+			&.first {
+				background: #485F2E;
+			}
+
+			&.second {
+				background: #9CCC66;
+			}
+
+			&.third {
+				background-image: url("../images/uxhires/leap-into-ux.png");
+				background-repeat: no-repeat;
+				background-size: cover;
+				background-position: 0 -75px;
+			}
+
+			p {
+				color: white;
+		    text-transform: uppercase;
+		    font-weight: 500;
+		    font-size: 1.7rem;
+		    font-family: "Gotham A", "Gotham B";
+				text-align: left;
+				width: 90%;
+				margin: 10rem auto 0;
+			}
+
+			h3 {
+				color: white;
+				text-transform: uppercase;
+		    font-weight: 700;
+		    font-size: 2.5rem;
+		    font-family: "Gotham A", "Gotham B";
+				text-align: left;
+				width: 90%;
+				margin: 1rem auto 0;
+			}
+		}
+	}
+}
+
+#uxhires9 {
 	height: 700px;
+	background: #F9F9F9;
 }
 
 .green-lead {
