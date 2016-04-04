@@ -258,18 +258,94 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-@media screen and (max-width:768px) {
+@media screen and (max-width: 1300px) {
   
+  #uxhires1 {
+    height: auto;
+  }
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 1300px) {
+
+  #uxhires3 {
+    .uxwrapper {
+      padding: 2rem;
+    }
+  }
+
+  #uxhires6, #uxhires4 {
+
+    img {
+      top: 15rem;
+    }
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1500px) {
+
+  #uxhires8 {
+    .related-container {
+      .related-box.third {
+        background-position: 100% !important;
+      }
+    }
+  }
+}
+
+
+
+@media screen and (max-width: 768px) {
+  
+  #uxhires3 {
+    height: auto;
+
+    .green-lead {
+      margin-bottom: 2rem;
+    }
+
+    .uxwrapper {
+      float: none;
+      width: 100%;
+      padding: 3rem;
+    }
+  }
+
+  #uxhires4 {
+    height: auto;
+    padding-bottom: 5rem;
+
+    img {
+      position: static;
+      width: 70%;
+      margin-top: 3rem;
+    }
+  }
+
+  #uxhires8 {
+    height: auto;
+    padding-bottom: 5rem;
+
+    .related-container {
+      height: auto;
+      margin: 0;
+      padding: 0;
+      width: auto;
+    }
+
+    .related-box {
+      float: none !important;
+      width: 100% !important;
+      height: 25rem !important;
+
+      p {
+        margin: 0 !important;
+        text-align: center !important;
+        padding-top: 2.5rem;
+      }
+    }
+  }
+
   /* all */
 
   .bucket-inner {
@@ -584,10 +660,11 @@
 
 
 
+@media screen and (min-width: 601px) and (max-width: 1150px) {
 
+  
 
-
-
+}
 
 
 @media screen and (max-width:600px) {
@@ -607,31 +684,6 @@
 
   #uxhires2 {
     height: auto;
-  }
-
-  #uxhires3 {
-    height: auto;
-
-    .green-lead {
-      margin-bottom: 2rem;
-    }
-
-    .uxwrapper {
-      float: none;
-      width: 100%;
-      padding: 3rem;
-    }
-  }
-
-  #uxhires4 {
-    height: auto;
-    padding-bottom: 5rem;
-
-    img {
-      position: static;
-      width: 70%;
-      margin-top: 3rem;
-    }
   }
 
   #uxhires5 {
@@ -666,29 +718,7 @@
     }
   }
 
-  #uxhires8 {
-    height: auto;
-    padding-bottom: 5rem;
-
-    .related-container {
-      height: auto;
-      margin: 0;
-      padding: 0;
-      width: auto;
-    }
-
-    .related-box {
-      float: none !important;
-      width: 100% !important;
-      height: 25rem !important;
-
-      p {
-        margin: 0 !important;
-        text-align: center !important;
-        padding-top: 2.5rem;
-      }
-    }
-  }
+  
 
   .section-center {
     width: auto !important;
