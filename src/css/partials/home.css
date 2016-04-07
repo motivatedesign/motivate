@@ -158,6 +158,10 @@
     height: 5rem; 
     margin: 6.5rem auto 0;
 
+    &.m-top {
+      margin: 14rem auto 0;
+    }
+
     a {
       width: 40px;
       display: inline-block;
