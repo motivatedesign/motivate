@@ -84,10 +84,11 @@
 			width: 75%;
 			margin: 0.7rem auto;
 			font-size: 1.3rem;
+			font-family: --fontTwo;
 		}
 
 		a {
-			font-weight: 500;
+			font-weight: 600;
 			color: rgba(0, 0, 0, 0.75);
 			text-decoration: underline;
 		}
@@ -115,7 +116,7 @@
 	}
 
 	a {
-		font-weight: 500;
+		font-weight: 600;
 		color: rgba(0, 0, 0, 0.75);
 		text-decoration: underline;
 	}
