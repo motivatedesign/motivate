@@ -84,7 +84,7 @@
 
 		.ux-subhead {
 			margin: 0.7rem auto;
-			font-size: 1.3rem;
+			font-size: 1.4rem;
 			font-family: --fontTwo;
 		}
 
@@ -181,7 +181,7 @@
   }
 
   a {
-		font-weight: 500;
+		font-weight: 600;
 		color: rgba(0, 0, 0, 0.75);
 		text-decoration: underline;
 	}
@@ -204,7 +204,7 @@
 	}
 	
 	.related-container {
-		width: 95%;
+		width: 100%;
 		margin: 5rem auto 0;
 		overflow: hidden; 
 		position: relative;
@@ -257,8 +257,38 @@
 }
 
 #uxhires9 {
-	height: 700px;
+	height: auto;
 	background: #F9F9F9;
+
+	.job-listing {
+		margin-bottom: 5rem;
+		
+		&:last-child {
+			padding-bottom: 10rem;
+		}
+	}
+
+	h3 {
+		color: #AFE093;
+		text-transform: uppercase;
+		font-size: 1.4rem;
+	}
+
+	h1 {
+		font-weight: 500;
+		margin-bottom: 1rem;
+	}
+
+	p {
+		margin-top: 0;
+	}
+
+	a {
+		font-weight: 600;
+		color: rgba(0, 0, 0, 0.75);
+		text-decoration: underline;
+		font-size: 2rem;
+	}
 }
 
 .green-lead {

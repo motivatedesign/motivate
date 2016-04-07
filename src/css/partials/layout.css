@@ -98,6 +98,10 @@ section {
   lost-center: 896px;
   padding-right: 25px;
   padding-left: 25px;
+
+  &.p-top {
+    padding-top: 15%;
+  }
 }
 
 .quarter {
