@@ -686,21 +686,25 @@
     height: auto;
   }
 
-  #uxhires5 {
+  #uxhires5, #uxhires7 {
     height: auto;
     padding-bottom: 5rem;
 
-    p {
-      border-right: none !important;
-      display: block !important;
-      width: 100% !important;
-      padding: 0 !important;
-    }
+    .contain-testimonial {
+      width: auto !important;
 
-    img {
-      padding: 0 !important;
-      text-align: center !important;
-      margin: 0 auto;
+      p {
+        border-right: none !important;
+        display: block !important;
+        width: 100% !important;
+        padding: 0 !important;
+      }
+
+      img {
+        padding: 0 !important;
+        text-align: center !important;
+        margin: 0 auto;
+      }
     }
   }
 
