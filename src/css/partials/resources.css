@@ -4,6 +4,53 @@
     background: $white;
   }
 
+  #resources1 {
+    background: #46CFBB;
+    height: 95vh;
+    width: 100vw;
+    position: relative;
+
+    nav {
+      z-index: 10;
+    }
+
+    .center-diamond {
+      position: relative;
+
+      img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 30%);
+      }
+    }
+
+    .hero-text {
+      width: 60%;
+      margin: 0 auto;
+      padding-top: 18%;
+      position: relative;
+      z-index: 10;
+
+      h5 {
+        color: white;
+        font-size: 1rem;
+      }
+
+      h1 {
+        color: white;
+        font-size: 8rem;
+        line-height: 95px;
+      }
+    }
+
+    .d-arrow-container {
+      float: right;
+      margin-top: 14rem;
+      margin-right: 10rem;
+    }
+  }
+
   #resources2 {
     height: 400px;
     overflow: hidden;
@@ -61,35 +108,6 @@
     color: $greydark;
     font-size: 2.5rem;
     line-height: 32px;
-  }
-
-  #resources1 {
-      background-repeat: no-repeat;
-      position: relative;
-      width: 100%;
-      height: 100vh;
-      background-color: transparent;
-      background: url("../images/resources/resourcesleadimage.jpg");
-      background-repeat: no-repeat;
-      background-size: cover;
-      min-height: 700px;
-
-      
-      & h1 img {
-          max-width: 896px;
-      }
-
-    .arrow-container {
-      width: 100%;
-      height: 5rem;
-      text-align: center;
-      margin-top: 30rem;
-
-      .h-arrow {
-        height: 18px; 
-        width: 18px;
-      }
-    }
   }
 
   .motivate-header {
