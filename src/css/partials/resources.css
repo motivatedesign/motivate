@@ -1,5 +1,9 @@
 #resources {
 
+  .nav-toggle span, .nav-toggle span:after, .nav-toggle span:before {
+    background: $white;
+  }
+
   #resources2 {
     height: 400px;
     overflow: hidden;
@@ -11,7 +15,6 @@
       width: 472px;
       height: auto;
     }
-  }
 
     .bucket {
       top: 80px;
@@ -21,6 +24,7 @@
       padding-left: 0px;
       padding-right: 105px;
     }
+  }
 
   #resources3 {
     height: 400px;
@@ -44,11 +48,14 @@
 
   }
 
-
-  
-  nav a {
-    color: var( --text-color);
+  nav li>a:before {
+    background-color: $white;
   }
+
+  .active-branch:after {
+    background: $white
+  }
+
 
   h3 {
     color: $greydark;
