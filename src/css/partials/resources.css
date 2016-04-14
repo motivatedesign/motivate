@@ -3,11 +3,15 @@
   .nav-toggle span, .nav-toggle span:after, .nav-toggle span:before {
     background: $white;
   }
+  
+  .h-dark-bgcolor {
+    background: #F9F9F9;
+  }
 
   #resources1 {
     background: #46CFBB;
-    height: 95vh;
-    width: 100vw;
+    height: 750px;
+    width: 100%;
     position: relative;
 
     nav {
@@ -45,15 +49,19 @@
     }
 
     .d-arrow-container {
+      max-width: 135px;
       float: right;
-      margin-top: 14rem;
-      margin-right: 10rem;
+      transform: translate(-115px, 130px);
     }
   }
 
   #resources2 {
     height: 400px;
     overflow: hidden;
+
+    &.gray {
+      background: #F9F9F9;
+    }
 
     img {
       position: relative;
