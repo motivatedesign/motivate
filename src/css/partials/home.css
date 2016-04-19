@@ -7,7 +7,6 @@
   p {
     font-family: "Sentinel A", "Sentinel B";
     font-size: 2.8rem;
-    line-height: 37px;
   }
 
   .bucket-inner {
@@ -15,6 +14,10 @@
     float: left;
     padding-top: 200px;
     padding-left: 0px;
+
+    .h-design-color {
+      color: #B2B03F;
+    }
   }
 
   #home1 {
@@ -67,7 +70,7 @@
   #home5 {
     height: 700px;
     overflow: hidden;
-    background-color: $section-light;
+    background-color: #F9F9F9;
     position: relative;
 
     & img {
